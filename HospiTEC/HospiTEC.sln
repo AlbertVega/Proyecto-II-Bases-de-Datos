@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospiTEC.Server", "HospiTEC.Server\HospiTEC.Server.csproj", "{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "hospitec.client", "hospitec.client\hospitec.client.esproj", "{E0C59CE6-330A-4924-90EA-3DED9BF0A935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C59CE6-330A-4924-90EA-3DED9BF0A935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C59CE6-330A-4924-90EA-3DED9BF0A935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C59CE6-330A-4924-90EA-3DED9BF0A935}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E0C59CE6-330A-4924-90EA-3DED9BF0A935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C59CE6-330A-4924-90EA-3DED9BF0A935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C59CE6-330A-4924-90EA-3DED9BF0A935}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B06253BB-7CED-4F7B-8BCB-24E0ADF501DF}
+	EndGlobalSection
+EndGlobal
