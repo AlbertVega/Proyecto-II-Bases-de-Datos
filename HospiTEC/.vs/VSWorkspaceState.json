@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\hospitec.client",
+    "\\hospitec.client\\src",
+    "\\hospitec.client\\src\\app",
+    "\\hospitec.client\\src\\app\\components",
+    "\\hospitec.client\\src\\app\\components\\admin-login",
+    "\\hospitec.client\\src\\app\\example2",
+    "\\hospitec.client\\src\\app\\Services",
+    "\\HospiTEC.Server"
+  ],
+  "SelectedNode": "\\hospitec.client\\src\\app\\app.module.ts",
+  "PreviewInSolutionExplorer": false
+}
