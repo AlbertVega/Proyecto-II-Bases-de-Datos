@@ -1,0 +1,37 @@
+/* fade in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.box-area {
+    font-family: 'Poppins', sans-serif;
+    width: 1200px;
+    opacity: 0; 
+    animation: fadeIn 0.3s ease-in forwards;
+}
+
+.right-box {
+    padding: 50px 30px 50px 30px;
+}
+
+.left-box {
+    border-radius: 30px 0 0 30px;
+}
+
+.box-area {
+    border-radius: 30px 30px 30px 30px;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+}
+
+.btn{
+    transition: all 0.5s ease 0s;
+    background-color: #062A38;
+}
