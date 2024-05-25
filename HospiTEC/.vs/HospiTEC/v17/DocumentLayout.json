@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
+  "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\alber\\onedrive\\documentos\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "doctor-login.component.html",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.html",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.html",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.html",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-25T21:06:11.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Program.cs",
-              "RelativeDocumentMoniker": "HospiTEC.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Program.cs",
-              "RelativeToolTip": "HospiTEC.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T23:56:41.579Z",
+              "Title": "doctor-login.component.ts",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-25T21:06:07.717Z",
               "EditorCaption": ""
             }
           ]
