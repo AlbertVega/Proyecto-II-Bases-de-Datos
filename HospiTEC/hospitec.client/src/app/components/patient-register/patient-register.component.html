@@ -1,0 +1,198 @@
+<!--
+
+<div class="container d-flex justify-content-center align-items-center">
+  <div class="row box-area bg-white shadow">
+
+    <div class="col-md-5 left-box" style="background-image: url('../../assets/login-img.jpg'); background-size:cover; background-position:0% ;">
+    </div>
+
+    <div class="col-md-7 right-box">
+      <div class="row align-items-center">
+        <div class="header-text mb-4">
+          <p class="fs-1">Registro de Paciente</p>
+        </div>
+
+        <form class="needs-validation">
+          <div class="form-group row">
+            <label for="Nombre" class="col-sm-3 col-form-label">Nombre</label>
+            <div class="col-sm-4 pb-3">
+              <input type="text" class="form-control" id="primerNombre" placeholder="Primer Nombre" autocomplete="off">
+            </div>
+            <div class="col-sm-5 pb-3">
+              <input type="text" class="form-control" id="apellidos" placeholder="Apellidos" autocomplete="off">
+            </div>
+          </div>
+          <div class="form-group row pb-3">
+            <label for="correoEstudiantec" class="col-sm-3 col-form-label">Correo</label>
+            <div class="col-sm-9">
+              <input type="email" class="form-control" id="correoEstudiantec" placeholder="ejemplo@estudiantec.cr" autocomplete="off">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="contraseña" class="col-sm-3 col-form-label">Contraseña</label>
+            <div class="col-sm-9 pb-3" style="text-align: left">
+              <input type="password" class="form-control" id="contraseña" placeholder="Contraseña" autocomplete="off">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="cedula" class="col-sm-3 col-form-label">Cédula</label>
+            <div class="col-sm-6 pb-3">
+              <input type="number" class="form-control" id="cedula" placeholder="10101010" autocomplete="off">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="carnet" class="col-sm-3 col-form-label">Numero telefónico</label>
+            <div class="col-sm-6 pb-3">
+              <input type="number" class="form-control" id="Carnet" placeholder="2024101010" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="fecha" class="col-sm-3 col-form-label pt-0">Fecha de Nacimiento</label>
+            <div class="col-sm-6 pb-3">
+              <input type="date" class="form-control" id="nacimiento" placeholder="DD-MM-AAAA" autocomplete="off">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="fecha" class="col-sm-3 col-form-label pt-0">Dirección</label>
+            <div class="col-sm-6 pb-3">
+              <input type="text" class="form-control" id="nacimiento" placeholder="Provincia, cantón, distrito" autocomplete="off">
+            </div>
+          </div>
+          <div class="form-group row">
+            <button type="submit" class="btn btn-primary">Registrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+
+<body>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row box-area bg-white shadow h-100">
+
+      <div class="col-md-4 left-box" style="background-image: url('../../assets/fondo.svg'); background-size:cover; background-position:20% ;">
+      </div>
+
+      <div class="col-md-8 right-box">
+        <div class="row align-items-center">
+          <div class="header-text mb-4">
+            <p class="fs-1">Bienvenido a HospiTEC</p>
+          </div>
+          <div class="text mb-3" style="text-align: left; padding-left: 15px;">
+            <p class="fs-5">Registro de paciente</p>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="Nombre" class="col-form-label">Nombre</label>
+            </div>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="primerNombre" placeholder="Nombre" autocomplete="off">
+            </div>
+            <div class="col-sm-6" style="padding-left: 10px;">
+              <input type="text" class="form-control" id="apellidos" placeholder="Apellidos" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="Cedula" class="col-form-label">Cedula</label>
+            </div>
+            <div class="col-sm-10">
+              <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Cedula">
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="Numero" class="col-form-label">Número telefónico</label>
+            </div>
+            <div class="col-sm-10">
+              <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="+506">
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="Direccion" class="col-form-label">Dirección</label>
+            </div>
+            <div class="col-sm-3">
+              <select class="form-select">
+                <option selected disabled hidden>Provincia</option>
+                <option value="1">Limón</option>
+                <option value="2">Cartago</option>
+                <option value="3">Heredia</option>
+                <option value="4">San José</option>
+                <option value="5">Guanacaste</option>
+                <option value="6">Puntarenas</option>
+                <option value="7">Alajuela</option>
+              </select>
+            </div>
+            <div class="col-sm-4" style="padding-left: 10px;">
+              <input type="text" class="form-control" id="Canton" placeholder="Cantón" autocomplete="off">
+            </div>
+            <div class="col-sm-3" style="padding-left: 10px;">
+              <input type="text" class="form-control" id="Distrito" placeholder="Distrito" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="F-nacimiento" class="col-form-label">Fecha de nacimiento</label>
+            </div>
+            <div class="col-sm-10">
+              <input type="date" class="form-control">
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="Patologias" class="col-form-label">Patologías</label>
+            </div>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="patologias-text" placeholder="Ingrese si padece de alguna patología" rows="2"></textarea>
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="Tratamientos" class="col-form-label">Tratamientos</label>
+            </div>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="patologias-text" placeholder="Ingrese si recibe algún tratamiento" rows="2"></textarea>
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="Correo" class="col-form-label">Correo</label>
+            </div>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="Distrito" placeholder="Correo electrónico" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="col-sm-2" style="text-align: left;">
+              <label for="Contraseña" class="col-form-label">Contraseña</label>
+            </div>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="Distrito" placeholder="Cree una contraseña" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="input-group mt-4">
+            <button class="btn btn-lg btn-dark w-100 fs-6">Registrarse</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body> 
+
