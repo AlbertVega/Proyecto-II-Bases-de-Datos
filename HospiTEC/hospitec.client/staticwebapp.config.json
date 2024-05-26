@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/*",
-      "serve": "/index.html",
+      "serve": "/app/app.component.html",
       "statusCode": 200
     }
   ],
