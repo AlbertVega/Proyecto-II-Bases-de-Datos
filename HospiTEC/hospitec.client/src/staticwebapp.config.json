@@ -1,8 +1,8 @@
 {
   "routes": [
     {
-      "route": "/*",
-      "serve": "/app/app.component.html",
+      "route": "/patient-reg",
+      "serve": "/app/components/patient-register/patient-register.component.html",
       "statusCode": 200
     }
   ],
