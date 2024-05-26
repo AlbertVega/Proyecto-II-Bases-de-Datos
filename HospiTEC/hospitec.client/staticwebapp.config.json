@@ -1,8 +1,10 @@
 {
   "routes": [
-        {
-          "route": "/app/components/patient-register/patient-register.component.html"
-        }
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
   ],
   "navigationFallback": {
     "rewrite": "/app/app.component.html"
