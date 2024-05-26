@@ -1,7 +1,7 @@
 {
   "routes": [
         {
-          "route": "/patient-reg"
+          "route": "/patient-reg",
           "rewrite": "/app/components/patient-register/patient-register.component.html"
         }
   ]
