@@ -1,4 +1,9 @@
 {
+  "routes": [
+        {
+          "route": "/patient-reg"
+        }
+  ]
   "navigationFallback": {
     "rewrite": "/app/app.component.html"
   }
