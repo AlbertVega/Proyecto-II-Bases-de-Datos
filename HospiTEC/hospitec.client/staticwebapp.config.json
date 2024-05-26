@@ -1,12 +1,1 @@
-{
-  "routes": [
-    {
-      "route": "/*",
-      "serve": "/app/app.component.html",
-      "statusCode": 200
-    }
-  ],
-  "navigationFallback": {
-    "rewrite": "/app/app.component.html"
-  }
-}
+
