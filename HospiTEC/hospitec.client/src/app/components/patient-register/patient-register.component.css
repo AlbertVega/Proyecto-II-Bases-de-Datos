@@ -8,11 +8,22 @@
     }
 }
 
+
+body {
+    background-color: #abe7ff9f;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 .box-area {
     font-family: 'Poppins', sans-serif;
     width: 1200px;
     opacity: 0; 
     animation: fadeIn 0.3s ease-in forwards;
+    margin: 3rem 0 3rem 0;
 }
 
 .right-box {
