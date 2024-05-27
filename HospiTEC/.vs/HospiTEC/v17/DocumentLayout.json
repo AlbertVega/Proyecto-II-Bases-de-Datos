@@ -35,8 +35,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T23:56:41.579Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -46,7 +45,7 @@
               "RelativeDocumentMoniker": "hospitec.client\\staticwebapp.config.json",
               "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\staticwebapp.config.json",
               "RelativeToolTip": "hospitec.client\\staticwebapp.config.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-27T23:34:57.831Z",
               "EditorCaption": ""
@@ -61,8 +60,7 @@
               "RelativeToolTip": "hospitec.client\\angular.json",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-27T23:20:56.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T23:20:56.701Z"
             }
           ]
         }
