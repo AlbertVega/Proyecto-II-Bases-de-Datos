@@ -459,19 +459,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alber\\.nuget\\packages\\": {}
+    "C:\\Users\\ederv\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\HospiTEC.Server.csproj",
+      "projectUniqueName": "C:\\Users\\ederv\\Documents\\TEC\\Bases\\Proyecto2\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\HospiTEC.Server.csproj",
       "projectName": "HospiTEC.Server",
-      "projectPath": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\HospiTEC.Server.csproj",
-      "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\obj\\",
+      "projectPath": "C:\\Users\\ederv\\Documents\\TEC\\Bases\\Proyecto2\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\HospiTEC.Server.csproj",
+      "packagesPath": "C:\\Users\\ederv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ederv\\Documents\\TEC\\Bases\\Proyecto2\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ederv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -530,7 +535,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
