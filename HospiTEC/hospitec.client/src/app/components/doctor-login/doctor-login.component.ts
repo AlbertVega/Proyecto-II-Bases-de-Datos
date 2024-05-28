@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';;
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'doctor-login',
@@ -14,7 +15,8 @@ export class DoctorLoginComponent implements OnInit{
   validate: boolean = false;
 
   constructor(
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private router: Router
   ) { }
 
   ngOnInit(): void{
@@ -30,7 +32,7 @@ export class DoctorLoginComponent implements OnInit{
     const password = this.formulario.value.password;
     if (email == 'admin' && password == 'admin') {
       this.validate = false
-      console.log('Login successful')
+      this.router.navigate(['doctor-view']);
     } else {
       this.validate = true
     } 
