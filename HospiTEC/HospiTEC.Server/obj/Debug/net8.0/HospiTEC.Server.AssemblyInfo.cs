@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HospiTEC.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4a6e1e5b6ea808b1e921999742e4b10d90846d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4032455785cbfa13ebe1df0a9c0f641e7c70596a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HospiTEC.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HospiTEC.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

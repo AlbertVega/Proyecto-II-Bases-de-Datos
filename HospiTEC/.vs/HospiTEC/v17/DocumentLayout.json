@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\doctor-view\\doctor-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\doctor-sidenav.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\doctor-sidenav.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "doctor-view.component.ts",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-view.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\doctor-view\\doctor-view.component.ts",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-view.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\doctor-view\\doctor-view.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-28T00:57:22.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "app-routing.module.ts",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app-routing.module.ts",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\app-routing.module.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-28T00:56:34.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "doctor-login.component.ts",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\doctor-login\\doctor-login.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Title": "doctor-sidenav.component.ts",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\doctor-sidenav.component.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\doctor-sidenav.component.ts",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\doctor-sidenav.component.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\doctor-sidenav.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-27T23:46:55.325Z",
+              "WhenOpened": "2024-05-28T01:24:19.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\index.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\index.html",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\index.html",
-              "RelativeToolTip": "hospitec.client\\src\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-26T04:31:07.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "angular.json",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\angular.json",
-              "RelativeDocumentMoniker": "hospitec.client\\angular.json",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\angular.json",
-              "RelativeToolTip": "hospitec.client\\angular.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-26T04:24:44.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "proxy.conf.js",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\proxy.conf.js",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\proxy.conf.js",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\proxy.conf.js",
-              "RelativeToolTip": "hospitec.client\\src\\proxy.conf.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-26T03:51:59.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "app.component.ts",
               "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.ts",
               "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app.component.ts",
               "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.ts",
               "RelativeToolTip": "hospitec.client\\src\\app\\app.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-26T03:44:35.254Z"
+              "WhenOpened": "2024-05-28T01:24:08.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\app.module.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-28T01:23:59.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "nav-data.ts",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-28T01:19:58.199Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -7,12 +7,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DoctorLoginComponent } from './components/doctor-login/doctor-login.component';
 import { DoctorViewComponent } from './components/doctor-view/doctor-view.component';
+import { DoctorBodyComponent } from './components/doctor-view/doctor-body/doctor-body.component';
+import { DoctorSidenavComponent } from './components/doctor-view/doctor-sidenav/doctor-sidenav.component';
+import { AddPatientComponent } from './components/doctor-view/add-patient/add-patient.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DoctorLoginComponent,
-    DoctorViewComponent
+    DoctorViewComponent,
+    DoctorBodyComponent,
+    DoctorSidenavComponent,
+    AddPatientComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

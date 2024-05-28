@@ -1,1 +1,4 @@
-<p>doctor-view works!</p>
+
+<app-doctor-sidenav (onToggleSideNav)="onToggleSideNav($event)"></app-doctor-sidenav>
+
+<app-doctor-body [collapsed]="isSideNavCollapsed" [screenWidth]="screenWidth"></app-doctor-body>
