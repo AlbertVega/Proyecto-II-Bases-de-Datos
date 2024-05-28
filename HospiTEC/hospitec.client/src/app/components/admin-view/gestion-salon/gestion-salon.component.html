@@ -1,0 +1,126 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Capacidad de Personas</th>
+              <th>Capacidad de Computadoras</th>
+              <th>Facilidades</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of rows; let i = index">
+              <td class="id">
+                <p>{{row.nombre}}</p>
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.capacidadPersonas}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.capacidadPersonas" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.capacidadComputadoras}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.capacidadComputadoras" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.facilidades}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.facilidades" class="form-control">
+              </td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button *ngIf="editingRow[i] == false" (click)="editRow(i)" class="btn btn-outline-warning">Edit</button>
+                  <button *ngIf="editingRow[i] == true" (click)="saveRow(i)" class="btn btn-outline-success">Save</button>
+                  <button class="btn btn-outline-info">Ver Horario</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="schedule-table">
+          <table class="table">
+            <colgroup>
+              <col>
+              <col style="order:1">
+              <col style="order:2">
+              <col style="order:3">
+              <col style="order:4">
+              <col style="order:5">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Horario</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let hour of startingHours, let i = index">
+                <tr>
+                  <td class="hour">{{startingHours[i]}}-{{endHours[i]}}</td>
+                  <ng-container *ngFor="let day of daysOfWeek">
+                    <ng-container *ngIf="hasReservationsForDayHour(day, hour)">
+                      <ng-container *ngFor="let reservation of getReservationForDayHour(day, hour)">
+                        <td class="reserved" [attr.rowspan]="calculateHours(reservation.startHour, reservation.endHour)">
+                          <h4>{{reservation.description}}</h4>
+                          <p>{{reservation.professor}}</p>
+                          <p>{{reservation.day}}</p>
+                        </td>
+                      </ng-container>
+                    </ng-container>
+                    <ng-container *ngIf="!hasReservationsForDayHour(day, hour) && !hasReservationAtHour(day, hour)">
+                      <td></td>
+                    </ng-container>
+                  </ng-container>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-2">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="lab" id="btnradio1" autocomplete="off" checked>
+          <label class="btn btn-outline-primary" for="btnradio1">F2-05</label>
+
+          <input type="radio" class="btn-check" name="lab" id="btnradio2" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio2">F2-06</label>
+
+          <input type="radio" class="btn-check" name="lab" id="btnradio3" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio3">F2-07</label>
+
+          <input type="radio" class="btn-check" name="lab" id="btnradio4" autocomplete="off">
+          <label class="btn btn-outline-primary" for="btnradio4">F2-08</label>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+          <input type="radio" class="btn-check" name="week" id="week1" autocomplete="off" checked>
+          <label class="btn btn-outline-primary" for="week1">{{startdate_week1}} - {{enddate_week1}}</label>
+
+          <input type="radio" class="btn-check" name="week" id="week2" autocomplete="off">
+          <label class="btn btn-outline-primary" for="week2">{{startdate_week2}} - {{enddate_week2}}</label>
+
+          <input type="radio" class="btn-check" name="week" id="week3" autocomplete="off">
+          <label class="btn btn-outline-primary" for="week3">{{startdate_week3}} - {{enddate_week3}}</label>
+
+          <input type="radio" class="btn-check" name="week" id="week4" autocomplete="off">
+          <label class="btn btn-outline-primary" for="week4">{{startdate_week4}} - {{enddate_week4}}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

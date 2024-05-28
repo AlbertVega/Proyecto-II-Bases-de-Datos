@@ -6,11 +6,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminLoginComponent } from './components/admin-login/admin-login.component';
 import { FormsModule } from '@angular/forms';
+import { AdminViewComponent } from './components/admin-view/admin-view.component';
+import { AdminBodyComponent } from './components/admin-view/admin-body/admin-body.component';
+import { AdminSidenavComponent } from './components/admin-view/admin-sidenav/admin-sidenav.component';
+import { GestionSalonComponent } from './components/admin-view/gestion-salon/gestion-salon.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    AdminViewComponent,
+    AdminBodyComponent,
+    AdminSidenavComponent,
+    GestionSalonComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
