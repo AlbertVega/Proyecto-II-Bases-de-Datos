@@ -1,0 +1,11 @@
+<div class="container">
+    <h2>Subir archivo de Excel</h2>
+    <input type="file" (change)="onFileChange($event)" accept=".xlsx, .xls">
+    <div *ngIf="data.length > 0">
+      <h3>Contenido del archivo:</h3>
+      <ul>
+        <li *ngFor="let item of data">{{ item }}</li>
+      </ul>
+    </div>
+  </div>
+  

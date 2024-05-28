@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminLoginComponent } from './components/admin-login/admin-login.component';
 import { FormsModule } from '@angular/forms';
+import { ExcelUploaderComponent } from './components/excel-uploader/excel-uploader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    ExcelUploaderComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
