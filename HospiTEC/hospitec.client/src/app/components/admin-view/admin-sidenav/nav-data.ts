@@ -9,12 +9,12 @@ export const navbarData = [
   {
     label: 'Gestión de equipo médico',
     icon: 'fal fa-tags',
-    routeLink: 'gestion-activo'
+    routeLink: 'gestion-equipo'
   },
   {
     label: 'Gestión de camas',
     icon: 'fal-tags ',
-    routeLink:''
+    routeLink:'gestion-camas'
   },
   {
     label: 'Gestión de procedimientos medicos',
@@ -22,9 +22,9 @@ export const navbarData = [
     routeLink: 'gestion-prof'
   },
   {
-    label: 'Aprobación de personal',
+    label: 'Gestión del personal',
     icon: 'fal fa-user-plus',
-    routeLink: 'aprobacion-op'
+    routeLink: 'gestion-personal'
   },
   {
     label: 'Restablecimiento de contraseña',

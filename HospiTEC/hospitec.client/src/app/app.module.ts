@@ -10,8 +10,10 @@ import { AdminViewComponent } from './components/admin-view/admin-view.component
 import { AdminBodyComponent } from './components/admin-view/admin-body/admin-body.component';
 import { AdminSidenavComponent } from './components/admin-view/admin-sidenav/admin-sidenav.component';
 import { GestionSalonComponent } from './components/admin-view/gestion-salon/gestion-salon.component';
-
-import { ExcelUploaderComponent } from './components/excel-uploader/excel-uploader.component';
+import { GestionEquipoComponent } from './components/admin-view/gestion-equipo/gestion-equipo.component';
+import { GestionCamasComponent } from './components/admin-view/gestion-camas/gestion-camas.component';
+import { GestionPersonalComponent } from './components/admin-view/gestion-personal/gestion-personal.component';
+//import { ExcelUploaderComponent } from './components/excel-uploader/excel-uploader.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,10 @@ import { ExcelUploaderComponent } from './components/excel-uploader/excel-upload
     AdminBodyComponent,
     AdminSidenavComponent,
     GestionSalonComponent,
-    ExcelUploaderComponent
+    GestionEquipoComponent,
+    GestionCamasComponent,
+    GestionPersonalComponent,
+    //ExcelUploaderComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
