@@ -10,8 +10,9 @@ import { AdminViewComponent } from './components/admin-view/admin-view.component
 import { AdminBodyComponent } from './components/admin-view/admin-body/admin-body.component';
 import { AdminSidenavComponent } from './components/admin-view/admin-sidenav/admin-sidenav.component';
 import { GestionSalonComponent } from './components/admin-view/gestion-salon/gestion-salon.component';
+import { ExcelUploaderComponent } from './components/admin-view/excel-uploader/excel-uploader.component';
 
-import { ExcelUploaderComponent } from './components/excel-uploader/excel-uploader.component';
+
 
 @NgModule({
   declarations: [
