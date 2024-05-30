@@ -27,6 +27,16 @@ export const navbarData = [
     routeLink: 'aprobacion-op'
   },
   {
+    label: 'Cargar Pacientes',
+    icon: 'fal id-card-o',
+    routeLink: 'excel-uploader'
+  },
+  {
+    label: 'Reportes',
+    icon: 'fal book',
+    routeLink: 'admin-reportes'
+  },
+  {
     label: 'Restablecimiento de contraseña',
     icon: 'fal fa-key',
     routeLink: 'rst-pwd'
