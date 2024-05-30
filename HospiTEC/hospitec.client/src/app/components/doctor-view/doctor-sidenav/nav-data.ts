@@ -7,7 +7,7 @@ export const navbarData = [
     label: 'Agregar Paciente'
   },
   {
-    routeLink: '',
+    routeLink: '../doctor-login',
     icon: 'fa fa-sign-out-alt',
     label: 'Cerrar Sesión'
   }
