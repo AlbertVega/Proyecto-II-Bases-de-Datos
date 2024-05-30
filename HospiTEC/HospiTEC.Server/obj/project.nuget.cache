@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hy/cE0OU31CqRAj4N06Qbc0gCsJDocJYTwk2ZDqZJ16CjkQblQIBe+SgLPu3GL4aED8fgt9OiNDOynJUGqA1zA==",
+  "dgSpecHash": "896qwIPYJY8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\HospiTEC.Server.csproj",
+  "projectFilePath": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\HospiTEC.Server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alber\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.5\\microsoft.aspnetcore.spaproxy.8.0.5.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.6\\microsoft.aspnetcore.spaproxy.8.0.6.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

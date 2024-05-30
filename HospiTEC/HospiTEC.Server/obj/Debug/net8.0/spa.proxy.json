@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\alber\\OneDrive\\Documentos\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\..\\hospitec.client",
+"WorkingDirectory": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\..\\hospitec.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
