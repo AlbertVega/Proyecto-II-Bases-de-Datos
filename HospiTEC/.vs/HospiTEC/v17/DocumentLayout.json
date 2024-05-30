@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\AppModule.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\AppModule.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-procedimientos\\gestion-procedimientos.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\admin-view\\gestion-procedimientos\\gestion-procedimientos.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-equipo\\gestion-equipo.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\admin-view\\gestion-equipo\\gestion-equipo.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,50 +46,115 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "gestion-salon.component.css",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.css",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.css",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.css",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-30T03:51:13.355Z",
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-30T05:51:25.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "gestion-salon.component.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.ts",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAsAAABEAAAA",
+              "Title": "AppModule.ts",
+              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\AppModule.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\AppModule.ts",
+              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\AppModule.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\AppModule.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-30T03:39:30.284Z",
+              "WhenOpened": "2024-05-30T05:51:10.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "admin-view.component.html",
+              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.html",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.html",
+              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.html",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T05:51:06.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "admin-view.component.css",
+              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.css",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.css",
+              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.css",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-30T05:51:04.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "admin-view.component.ts",
+              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.ts",
+              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\admin-view\\admin-view.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-05-30T05:50:59.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "gestion-equipo.component.html",
+              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-equipo\\gestion-equipo.component.html",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\admin-view\\gestion-equipo\\gestion-equipo.component.html",
+              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-equipo\\gestion-equipo.component.html",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\admin-view\\gestion-equipo\\gestion-equipo.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T05:48:43.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "gestion-salon.component.html",
               "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.html",
               "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.html",
               "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.html",
               "RelativeToolTip": "hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.html",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-30T03:34:24.366Z",
+              "WhenOpened": "2024-05-30T05:48:07.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "gestion-procedimientos.component.html",
+              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-procedimientos\\gestion-procedimientos.component.html",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\admin-view\\gestion-procedimientos\\gestion-procedimientos.component.html",
+              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\admin-view\\gestion-procedimientos\\gestion-procedimientos.component.html",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\admin-view\\gestion-procedimientos\\gestion-procedimientos.component.html",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-30T05:47:39.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

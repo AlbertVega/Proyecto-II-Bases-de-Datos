@@ -19,7 +19,7 @@ export const navbarData = [
   {
     label: 'Gestión de procedimientos medicos',
     icon: 'fal fa-users',
-    routeLink: 'gestion-prof'
+    routeLink: 'gestion-procedimientos'
   },
   {
     label: 'Gestión del personal',
@@ -33,7 +33,7 @@ export const navbarData = [
   },
 
   {
-    routeLink: '',
+    routeLink: 'admin-login',
     icon: 'fa fa-sign-out-alt',
     label: 'Cerrar Sesión'
   }

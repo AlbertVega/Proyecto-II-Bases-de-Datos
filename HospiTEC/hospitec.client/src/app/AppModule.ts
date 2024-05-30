@@ -1,4 +1,4 @@
-﻿import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +12,7 @@ import { GestionSalonComponent } from './components/admin-view/gestion-salon/ges
 import { GestionEquipoComponent } from './components/admin-view/gestion-equipo/gestion-equipo.component';
 import { GestionCamasComponent } from './components/admin-view/gestion-camas/gestion-camas.component';
 import { GestionPersonalComponent } from './components/admin-view/gestion-personal/gestion-personal.component';
+import { GestionProcedimientosComponent } from './components/admin-view/gestion-procedimientos/gestion-procedimientos.component'
 
 //import { ExcelUploaderComponent } from './components/excel-uploader/excel-uploader.component';
 @NgModule({
@@ -25,6 +26,7 @@ import { GestionPersonalComponent } from './components/admin-view/gestion-person
         GestionEquipoComponent,
         GestionCamasComponent,
         GestionPersonalComponent,
+        GestionProcedimientosComponent 
         //ExcelUploaderComponent
     ],
     imports: [

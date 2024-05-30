@@ -7,6 +7,8 @@ import { ExcelUploaderComponent } from './components/excel-uploader/excel-upload
 import { GestionCamasComponent } from './components/admin-view/gestion-camas/gestion-camas.component';
 import { GestionEquipoComponent } from './components/admin-view/gestion-equipo/gestion-equipo.component';
 import { GestionPersonalComponent } from './components/admin-view/gestion-personal/gestion-personal.component';
+import { GestionProcedimientosComponent } from './components/admin-view/gestion-procedimientos/gestion-procedimientos.component'
+
 
 
 const routes: Routes = [
@@ -17,6 +19,7 @@ const routes: Routes = [
     children: [
       { path: 'gestion-salon', component: GestionSalonComponent },
       { path: 'gestion-camas', component: GestionCamasComponent },
+      { path: 'gestion-procedimientos', component: GestionProcedimientosComponent },
       { path: 'gestion-equipo', component: GestionEquipoComponent },
       { path: 'gestion-personal', component: GestionPersonalComponent }
     ]}
