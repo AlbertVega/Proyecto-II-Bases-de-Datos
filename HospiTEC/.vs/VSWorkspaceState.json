@@ -6,10 +6,10 @@
     "\\hospitec.client\\src\\app",
     "\\hospitec.client\\src\\app\\components",
     "\\hospitec.client\\src\\app\\components\\admin-view",
-    "\\hospitec.client\\src\\app\\components\\admin-view\\admin-sidenav",
+    "\\hospitec.client\\src\\app\\components\\admin-view\\gestion-equipo",
     "\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon",
     "\\HospiTEC.Server"
   ],
-  "SelectedNode": "\\hospitec.client\\src\\app\\components\\admin-view\\gestion-salon\\gestion-salon.component.ts",
+  "SelectedNode": "\\hospitec.client\\src\\app\\AppModule.ts",
   "PreviewInSolutionExplorer": false
 }

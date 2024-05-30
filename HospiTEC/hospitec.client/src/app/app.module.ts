@@ -11,8 +11,7 @@ import { AdminBodyComponent } from './components/admin-view/admin-body/admin-bod
 import { AdminSidenavComponent } from './components/admin-view/admin-sidenav/admin-sidenav.component';
 import { GestionSalonComponent } from './components/admin-view/gestion-salon/gestion-salon.component';
 
-import { ExcelUploaderComponent } from './components/admin-view/excel-uploader/excel-uploader.component';
-import { AdminReportesComponent } from './components/admin-view/admin-reportes/admin-reportes.component';
+import { ExcelUploaderComponent } from './components/excel-uploader/excel-uploader.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +20,6 @@ import { AdminReportesComponent } from './components/admin-view/admin-reportes/a
     AdminViewComponent,
     AdminBodyComponent,
     AdminSidenavComponent,
-    AdminReportesComponent,
     GestionSalonComponent,
     ExcelUploaderComponent
   ],

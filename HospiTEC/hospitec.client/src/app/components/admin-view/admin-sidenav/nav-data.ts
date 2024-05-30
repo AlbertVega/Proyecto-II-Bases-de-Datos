@@ -9,22 +9,22 @@ export const navbarData = [
   {
     label: 'Gestión de equipo médico',
     icon: 'fal fa-tags',
-    routeLink: 'gestion-activo'
+    routeLink: 'gestion-equipo'
   },
   {
     label: 'Gestión de camas',
     icon: 'fal-tags ',
-    routeLink:''
+    routeLink:'gestion-camas'
   },
   {
     label: 'Gestión de procedimientos medicos',
     icon: 'fal fa-users',
-    routeLink: 'gestion-prof'
+    routeLink: 'gestion-procedimientos'
   },
   {
-    label: 'Aprobación de personal',
+    label: 'Gestión del personal',
     icon: 'fal fa-user-plus',
-    routeLink: 'aprobacion-op'
+    routeLink: 'gestion-personal'
   },
   {
     label: 'Cargar Pacientes',
@@ -43,7 +43,7 @@ export const navbarData = [
   },
 
   {
-    routeLink: '',
+    routeLink: 'admin-login',
     icon: 'fa fa-sign-out-alt',
     label: 'Cerrar Sesión'
   }

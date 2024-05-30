@@ -2,15 +2,21 @@ import { Component } from '@angular/core';
 import { AdminService } from '../../../Services/admin.service';
 
 @Component({
-  selector: 'app-gestion-salon',
-  templateUrl: './gestion-salon.component.html',
-  styleUrl: './gestion-salon.component.css'
+  selector: 'app-gestion-procedimientos',
+  templateUrl: './gestion-procedimientos.component.html',
+  styleUrl: './gestion-procedimientos.component.css'
 })
-export class GestionSalonComponent {
+export class GestionProcedimientosComponent {
   rows = [
-    { numero: 1, nombre: 'Quirúrgico', capacidad: 2, tipo: 1,piso:0 },
-    { numero: 2, nombre: 'Pediatra', capacidad: 18, tipo: 3,piso:1 }
-   
+    { nombre: 'Apendicectomía', cantidad:2 },
+    { nombre: 'Biopsia de mama', cantidad: 1 },
+    { nombre: 'Cirugía de cataratas', cantidad: 1 },
+    { nombre: 'Cesárea', cantidad: 2 },
+    { nombre: 'Histerectomía', cantidad: 1 },
+    { nombre: 'Cirugía para la lumbalgia', cantidad: 3 },
+    { nombre: 'Mastectomía', cantidad: 3 },
+    { nombre: 'Amigdalectomía', cantidad: 1 },
+
   ];
 
   editingRow: boolean[] = [];
@@ -46,7 +52,7 @@ export class GestionSalonComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    this.rows.push({ numero:0,nombre: '',  capacidad: 0,tipo:0,piso:0 });
+    this.rows.push({ nombre: '', cantidad: 0});
     this.editingRow.push(true);
   }
 

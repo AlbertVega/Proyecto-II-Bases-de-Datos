@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import { AdminService } from '../../../Services/admin.service';
 
 @Component({
-  selector: 'app-gestion-salon',
-  templateUrl: './gestion-salon.component.html',
-  styleUrl: './gestion-salon.component.css'
+  selector: 'app-gestion-personal',
+  templateUrl: './gestion-personal.component.html',
+  styleUrl: './gestion-personal.component.css'
 })
-export class GestionSalonComponent {
+export class GestionPersonalComponent {
   rows = [
-    { numero: 1, nombre: 'Quirúrgico', capacidad: 2, tipo: 1,piso:0 },
-    { numero: 2, nombre: 'Pediatra', capacidad: 18, tipo: 3,piso:1 }
-   
+    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', direccion: 'san juan', email: 'jpg@gmail.com', fecha_ingreso: '2024-05-14' },
+    { cedula: '987654321', nombre: 'Maria', apellido1: 'Gomez', apellido2: 'Gonzalez', edad: '30', fecha_nacimiento: '01-01-1990', telefono: '83421558', direccion: 'san juan', email: 'asd@gmail.com', fecha_ingreso: '03-01-2020' },
+    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', direccion: 'san juan', email: 'qwe@gmail.com', fecha_ingreso: '03-01-2020' },
   ];
 
   editingRow: boolean[] = [];
@@ -19,12 +19,12 @@ export class GestionSalonComponent {
   * Constructor
   * Entradas: servicio de admin
   * Salidas: ninguna
-  * Funcionamiento: se encarga de obtener los activos
+  * Funcionamiento: se encarga de obtener los profesores
   */
   constructor(
     private _adminService: AdminService,
   ) {
-    _adminService.getActivos().subscribe({
+    _adminService.getProfesor().subscribe({
       next: (data) => {
         if (data.status) {
           this.rows = data.value;
@@ -46,7 +46,7 @@ export class GestionSalonComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    this.rows.push({ numero:0,nombre: '',  capacidad: 0,tipo:0,piso:0 });
+    this.rows.push({ cedula: '', nombre: '', apellido1: '', apellido2: '', edad: '', fecha_nacimiento: '', telefono: '', direccion: '', email: '', fecha_ingreso: '' });
     this.editingRow.push(true);
   }
 
