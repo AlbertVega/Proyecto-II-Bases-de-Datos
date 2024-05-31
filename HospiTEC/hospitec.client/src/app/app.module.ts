@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PatientRegisterComponent } from './components/patient-register/patient-register.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PatientLoginComponent } from './components/patient-login/patient-login.component';
 import { PatientViewComponent } from './components/patient-view/patient-view.component';
 import { PatientSidenavComponent } from './components/patient-view/patient-sidenav/patient-sidenav.component';
@@ -24,7 +24,7 @@ import { PatientBodyComponent } from './components/patient-view/patient-body/pat
   ],
   imports: [
     BrowserModule, HttpClientModule,
-    AppRoutingModule, ReactiveFormsModule
+    AppRoutingModule, ReactiveFormsModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

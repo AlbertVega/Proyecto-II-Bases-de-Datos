@@ -4,7 +4,7 @@ export const navbarData = [
   {
     label: 'Historial clínico',
     icon: 'fal fa-desktop',
-    routeLink: ''
+    routeLink: 'historial-view'
   },
   {
     label: 'Restablecimiento de contraseña',

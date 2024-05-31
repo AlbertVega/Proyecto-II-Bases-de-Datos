@@ -1,1 +1,38 @@
-<p>historial-view works!</p>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th> Procedimiento</th>
+              <th>Tratamiento</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of rows; let i = index">
+              <td class="id">
+                <p *ngIf="editingRow[i] == false">{{row.fecha}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.fecha" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.procedimiento}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.procedimiento" class="form-control">
+              </td>
+              
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.tratamiento}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.tratamiento" class="form-control">
+              </td>
+              
+                
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+   
+  </div>
+</body>
