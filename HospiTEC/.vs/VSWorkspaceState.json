@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\hospitec.client",
+    "\\hospitec.client\\src",
+    "\\hospitec.client\\src\\app",
+    "\\hospitec.client\\src\\app\\components",
+    "\\hospitec.client\\src\\app\\components\\patient-view",
+    "\\hospitec.client\\src\\app\\components\\patient-view\\patient-body",
+    "\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav"
+  ],
+  "SelectedNode": "\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
+  "PreviewInSolutionExplorer": false
+}
