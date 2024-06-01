@@ -8,6 +8,6 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\hospitec.client\</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\app\Interfaces\" />
+    <Folder Include="src\app\components\" />
   </ItemGroup>
 </Project>

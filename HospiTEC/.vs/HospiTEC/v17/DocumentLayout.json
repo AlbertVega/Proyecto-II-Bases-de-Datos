@@ -1,106 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
+  "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\hospitec_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\hospitec_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\services\\patient.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\services\\patient.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\Interfaces\\response-api.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\Interfaces\\response-api.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\services\\patient.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\services\\patient.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,344 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "patient-view.component.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T04:17:34.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "nav-data.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T04:59:45.314Z",
+              "DocumentIndex": 0,
+              "Title": "ResponseApi.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\ResponseApi.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\ResponseApi.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\ResponseApi.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Data\\ResponseApi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:55:36.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "historial-view.component.html",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.html",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.html",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.html",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-31T04:58:45.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "historial-view.component.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T04:58:47.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "app.module.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.module.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app.module.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.module.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\app.module.ts",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T04:34:58.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "patient.service.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\services\\patient.service.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\services\\patient.service.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\services\\patient.service.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\services\\patient.service.ts",
-              "ViewState": "AQIAABcAAAAAAAAAAAAIwBEAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T18:21:14.928Z",
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:50:34.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "patient-view.component.html",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.html",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.html",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-31T04:16:15.37Z",
+              "Title": "HospiTEC_DB_Context.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T20:30:18.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "app.component.css",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.css",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app.component.css",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.css",
-              "RelativeToolTip": "hospitec.client\\src\\app\\app.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-31T05:00:49.235Z",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\appsettings.json",
+              "RelativeToolTip": "HospiTEC.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-28T02:11:48.098Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "app.component.html",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app.component.html",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.html",
-              "RelativeToolTip": "hospitec.client\\src\\app\\app.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-31T18:15:08.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "app.component.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app.component.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\app.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T05:00:52.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "app-routing.module.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app-routing.module.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\app-routing.module.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T04:01:53.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "historial-view.component.css",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.css",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.css",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.css",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-31T04:58:43.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "response-api.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\Interfaces\\response-api.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\Interfaces\\response-api.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\Interfaces\\response-api.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\Interfaces\\response-api.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T18:24:30.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "patient.service.spec.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\services\\patient.service.spec.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\services\\patient.service.spec.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\services\\patient.service.spec.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\services\\patient.service.spec.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T18:21:16.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "patient-sidenav.component.html",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.html",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.html",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-31T04:59:22.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "patient-sidenav.component.css",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.css",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.css",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.css",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.css",
-              "ViewState": "AQIAAFEAAAAAAAAAAIBJwGcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-31T04:59:31.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "patient-body.component.html",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.html",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.html",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-31T05:11:43.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "patient-sidenav.component.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\patient-sidenav.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T04:59:10.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "patient-body.component.ts",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.ts",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.ts",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAgAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-31T05:12:04.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "patient-body.component.css",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.css",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.css",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.css",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-body\\patient-body.component.css",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAuwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-31T05:11:08.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "patient-view.component.css",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.css",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.css",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.css",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-view.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-31T04:16:11.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "patient-login.component.css",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.css",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.css",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.css",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.css",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBJwCAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-31T00:41:34.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "patient-register.component.css",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.css",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.css",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.css",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-31T00:55:15.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "patient-register.component.html",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.html",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.html",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-register\\patient-register.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-31T00:52:34.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "patient-login.component.html",
-              "DocumentMoniker": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.html",
-              "ToolTip": "C:\\Users\\f_cec\\OneDrive\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.html",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-login\\patient-login.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-31T00:39:30.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

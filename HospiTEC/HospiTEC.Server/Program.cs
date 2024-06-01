@@ -1,16 +1,33 @@
+using HospiTEC.Server.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<HospiTEC_DB_Context>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("WebApiDatabase"));
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
+builder.Services.AddControllers();
+
 var app = builder.Build();
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
+app.UseCors();
+
+app.UseHttpsRedirection();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -19,7 +36,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+
 
 app.UseAuthorization();
 
