@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\hospitec.client",
+    "\\hospitec.client\\src",
+    "\\hospitec.client\\src\\app",
+    "\\hospitec.client\\src\\app\\components",
+    "\\hospitec.client\\src\\app\\components\\patient-view",
+    "\\hospitec.client\\src\\app\\components\\patient-view\\historial-view",
+    "\\hospitec.client\\src\\app\\Interfaces",
+    "\\hospitec.client\\src\\app\\services"
+  ],
+  "SelectedNode": "\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
+  "PreviewInSolutionExplorer": false
+}
