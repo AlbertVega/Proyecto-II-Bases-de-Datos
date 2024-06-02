@@ -1,2 +1,3 @@
 C:\Users\alber\OneDrive\Documentos\GitHub\Proyecto-II-Bases-de-Datos\HospiTEC\hospitec.client\obj\Debug\hospitec.client.esproj.CoreCompileInputs.cache
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\Proyecto-II-Bases-de-Datos\HospiTEC\hospitec.client\obj\Debug\hospitec.client.esproj.CoreCompileInputs.cache
+C:\Users\alber\Documents\GitHub\Proyecto-II-Bases-de-Datos\HospiTEC\hospitec.client\obj\Debug\hospitec.client.esproj.CoreCompileInputs.cache

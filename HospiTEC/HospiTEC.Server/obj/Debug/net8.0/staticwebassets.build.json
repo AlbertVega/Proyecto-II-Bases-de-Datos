@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "MM3R6rClurmyKcr5g6zbqMw5NWJ5uyt1SJu9D5MJWDs=",
+  "Hash": "3EZkhelgl1L73grcHVyNJbdH64OrFMmKr77NwdZ17LE=",
   "Source": "HospiTEC.Server",
   "BasePath": "_content/HospiTEC.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\hospitec.client.esproj",
+      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\hospitec.client.esproj",
       "Version": 2,
       "Source": "hospitec.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

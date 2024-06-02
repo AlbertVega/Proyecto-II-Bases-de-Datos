@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Register } from '../../Interfaces/Register';
+import { RegisterPatient } from '../../Interfaces/Register';
+import { PatientService } from '../../services/patient.service';
 
 @Component({
   selector: 'app-patient-register',
@@ -10,7 +11,7 @@ import { Register } from '../../Interfaces/Register';
 export class PatientRegisterComponent implements OnInit {
 
   form!: FormGroup;
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder, private service: PatientService) {}
 
   
   ngOnInit(): void {
@@ -40,7 +41,7 @@ export class PatientRegisterComponent implements OnInit {
       // dividir los dos apellidos
       let Apellidos: string[] = this.form.value.apellidos.split(' ');
 
-      const request: Register = {
+      const request: RegisterPatient = {
         nombre: this.form.value.nombre,
         apellido1: Apellidos[0],
         apellido2: Apellidos[1],
@@ -55,11 +56,17 @@ export class PatientRegisterComponent implements OnInit {
         email: this.form.value.email,
         password: this.form.value.password
       }
-      console.log('registro exitoso!');
-      console.log(request);
+      this.service.setPatient(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.value);
+          } else {
+            console.log("Error");
+          }
+        }
+      })
     } else {
       this.validateAllFormFields(this.form)
-      console.log('registro fallido!');
     }
   }
 

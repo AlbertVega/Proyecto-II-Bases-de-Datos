@@ -21,24 +21,11 @@ export class HistorialViewComponent {
   * Salidas: ninguna
   * Funcionamiento: se encarga de obtener los activos
   */
-  constructor(
-    private _patientService: PatientService,
-  ) {
-    _patientService.getActivos().subscribe({
-      next: (data) => {
-        if (data.status) {
-          this.rows = data.value;
-        } else {
-          console.log("Error");
-        }
-      }
-    });
-
+  constructor() {
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
     }
-  }
-
+}
   /*
    * AddRow
    * Entradas: ninguna
