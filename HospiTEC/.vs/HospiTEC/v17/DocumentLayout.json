@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\patientdataclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\patientdataclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\hospitec_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\hospitec_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\pwencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\pwencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\models\\patient_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\models\\patient_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ResponseApi.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\ResponseApi.cs",
-              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\ResponseApi.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\ResponseApi.cs",
-              "RelativeToolTip": "HospiTEC.Server\\Data\\ResponseApi.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:55:36.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DoctorController.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Controllers\\DoctorController.cs",
-              "RelativeDocumentMoniker": "HospiTEC.Server\\Controllers\\DoctorController.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Controllers\\DoctorController.cs",
-              "RelativeToolTip": "HospiTEC.Server\\Controllers\\DoctorController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:50:34.428Z",
+              "WhenOpened": "2024-06-03T18:17:15.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HospiTEC_DB_Context.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
-              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
-              "RelativeToolTip": "HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Title": "PWEncryption.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\PWEncryption.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\PWEncryption.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\PWEncryption.cs",
+              "RelativeToolTip": "HospiTEC.Server\\PWEncryption.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:30:18.82Z",
+              "WhenOpened": "2024-06-03T18:16:11.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "HospiTEC.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\appsettings.json",
-              "RelativeToolTip": "HospiTEC.Server\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-28T02:11:48.098Z",
+              "Title": "Patient_dto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Models\\Patient_dto.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Models\\Patient_dto.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Models\\Patient_dto.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Models\\Patient_dto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:14:59.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientDataClass.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\PatientDataClass.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\PatientDataClass.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\PatientDataClass.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Data\\PatientDataClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:14:07.071Z",
               "EditorCaption": ""
             }
           ]

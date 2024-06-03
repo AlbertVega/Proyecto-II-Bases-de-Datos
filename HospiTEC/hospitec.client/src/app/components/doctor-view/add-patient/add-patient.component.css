@@ -19,7 +19,8 @@ h1 {
   padding: 50px;
 }
 
-.form-name, .form-fname, .form-email, .form-lname {
+.form-name, .form-fname, .form-email, .form-lname, .form-birth, .form-pw,
+.form-cedula, .form-phone, .form-provincia, .form-canton, .form-distrito {
   width: 400px;
   text-align: left;
   font-size: 20px;
