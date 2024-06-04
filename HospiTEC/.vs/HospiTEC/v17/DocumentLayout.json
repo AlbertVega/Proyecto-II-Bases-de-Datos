@@ -1,16 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,31 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "gestion-reservacion.component.ts",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-02T23:17:22.403Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "gestion-reservacion.component.html",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html",
-              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html",
-              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-02T23:17:19.712Z",
-              "EditorCaption": ""
             }
           ]
         }

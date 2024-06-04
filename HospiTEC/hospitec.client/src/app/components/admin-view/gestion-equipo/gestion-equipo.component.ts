@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { AdminService } from '../../../Services/admin.service';
 
 @Component({
   selector: 'app-gestion-equipo',
@@ -25,19 +24,7 @@ export class GestionEquipoComponent {
   * Salidas: ninguna
   * Funcionamiento: se encarga de obtener los activos
   */
-  constructor(
-    private _adminService: AdminService,
-  ) {
-    _adminService.getActivos().subscribe({
-      next: (data) => {
-        if (data.status) {
-          this.rows = data.value;
-        } else {
-          console.log("Error");
-        }
-      }
-    });
-
+  constructor() {
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
     }

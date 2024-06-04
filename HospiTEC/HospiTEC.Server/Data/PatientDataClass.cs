@@ -28,13 +28,15 @@ namespace HospiTEC.Server.Data
                     apellido1 = patient_Dto.apellido1,
                     apellido2 = patient_Dto.apellido2,
                     cedula = patient_Dto.cedula,
-                    numero = patient_Dto.numeroTel,
+                    telefono = patient_Dto.numeroTel,
                     provincia = patient_Dto.provincia,
                     canton = patient_Dto.canton,
                     distrito = patient_Dto.distrito,
                     fecha_nacimiento = fecha_nacimiento,
-                    correo = patient_Dto.email,
-                    p_password = pw
+                    email = patient_Dto.email,
+                    p_password = pw,
+                    patologias = patient_Dto.patologias,
+                    tratamientos = patient_Dto.tratamientos
                 };
 
                 _context.paciente.Add(patient);
@@ -53,7 +55,7 @@ namespace HospiTEC.Server.Data
             try
             {
                 byte[] PW = PWEncryption.SHA256Encoding(patient.password);
-                PACIENTE login = await _context.paciente.Where(p => p.correo == patient.email && p.p_password == PW)
+                PACIENTE login = await _context.paciente.Where(p => p.email == patient.email && p.p_password == PW)
                     .FirstOrDefaultAsync();
 
                 await _context.SaveChangesAsync();

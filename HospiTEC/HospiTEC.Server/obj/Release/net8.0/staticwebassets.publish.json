@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "gIEToKsnfI8kRu64pB8BrEfgPhGvGaYohk1ICOND5Gc=",
+  "Hash": "2OfeC+kuR5VZphkBXIbL1ugYssMOF3pTZENTIhJXtn4=",
   "Source": "HospiTEC.Server",
   "BasePath": "_content/HospiTEC.Server",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\hospitec.client.esproj",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\hospitec.client.esproj",
       "Version": 2,
       "Source": "hospitec.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
@@ -21,10 +21,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\3rdpartylicenses.txt",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\3rdpartylicenses.txt",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
       "RelativePath": "3rdpartylicenses.txt",
       "AssetKind": "Publish",
@@ -37,13 +37,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\3rdpartylicenses.txt"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\3rdpartylicenses.txt"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\fondo.svg",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\fondo.svg",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
       "RelativePath": "browser/assets/fondo.svg",
       "AssetKind": "Publish",
@@ -56,13 +56,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\fondo.svg"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\fondo.svg"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\login.svg",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\login.svg",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
       "RelativePath": "browser/assets/login.svg",
       "AssetKind": "Publish",
@@ -75,13 +75,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\login.svg"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\login.svg"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\favicon.ico",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\Poppins-Regular.ttf",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "BasePath": "/",
+      "RelativePath": "browser/assets/Poppins-Regular.ttf",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\assets\\Poppins-Regular.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\favicon.ico",
+      "SourceId": "hospitec.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
       "RelativePath": "browser/favicon.ico",
       "AssetKind": "Publish",
@@ -94,13 +113,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\index.html",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\index.html",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
       "RelativePath": "browser/index.html",
       "AssetKind": "Publish",
@@ -113,15 +132,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\index.html"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\index.html"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-XK7GCVLF.js",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-HB2WVVAP.js",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
-      "RelativePath": "browser/main-XK7GCVLF.js",
+      "RelativePath": "browser/main-HB2WVVAP.js",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -132,13 +151,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-XK7GCVLF.js"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-HB2WVVAP.js"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\polyfills-A7MJM4D4.js",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\media\\Poppins-Regular-JNHL4IDV.ttf",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "BasePath": "/",
+      "RelativePath": "browser/media/Poppins-Regular-JNHL4IDV.ttf",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\media\\Poppins-Regular-JNHL4IDV.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\polyfills-A7MJM4D4.js",
+      "SourceId": "hospitec.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
       "RelativePath": "browser/polyfills-A7MJM4D4.js",
       "AssetKind": "Publish",
@@ -151,13 +189,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\polyfills-A7MJM4D4.js"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\polyfills-A7MJM4D4.js"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\scripts-FR7HA4WI.js",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\scripts-FR7HA4WI.js",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
       "RelativePath": "browser/scripts-FR7HA4WI.js",
       "AssetKind": "Publish",
@@ -170,13 +208,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\scripts-FR7HA4WI.js"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\scripts-FR7HA4WI.js"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\styles-DZ6UBGXD.css",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\styles-DZ6UBGXD.css",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
+      "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
       "RelativePath": "browser/styles-DZ6UBGXD.css",
       "AssetKind": "Publish",
@@ -189,7 +227,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\styles-DZ6UBGXD.css"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\styles-DZ6UBGXD.css"
     }
   ]
 }

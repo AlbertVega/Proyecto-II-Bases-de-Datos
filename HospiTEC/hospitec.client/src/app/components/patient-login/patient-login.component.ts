@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { PatientService } from '../../services/patient.service';
-import { Login } from '../../Interfaces/Login';
+import { Login } from '../../Interfaces/login';
 import { Router } from '@angular/router';
 
 @Component({
