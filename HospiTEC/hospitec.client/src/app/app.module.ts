@@ -10,6 +10,7 @@ import { DoctorViewComponent } from './components/doctor-view/doctor-view.compon
 import { DoctorBodyComponent } from './components/doctor-view/doctor-body/doctor-body.component';
 import { DoctorSidenavComponent } from './components/doctor-view/doctor-sidenav/doctor-sidenav.component';
 import { AddPatientComponent } from './components/doctor-view/add-patient/add-patient.component';
+import { AddRecordComponent } from './components/doctor-view/add-record/add-record.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AddPatientComponent } from './components/doctor-view/add-patient/add-pa
     DoctorViewComponent,
     DoctorBodyComponent,
     DoctorSidenavComponent,
-    AddPatientComponent
+    AddPatientComponent,
+    AddRecordComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
