@@ -5,7 +5,7 @@ namespace HospiTEC.Server.Data
     public class HospiTEC_DB_Context : DbContext
     {
         public DbSet<PACIENTE> paciente { get; set; }
-        public DbSet<DOCTOR> doctor { get; set; }
+        public DbSet<PERSONAL> personal { get; set; }
 
         public HospiTEC_DB_Context(DbContextOptions options) : base(options)
         {
@@ -15,7 +15,7 @@ namespace HospiTEC.Server.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PACIENTE>().HasKey(p => p.correo);
-            modelBuilder.Entity<DOCTOR>().HasKey(d => d.correo);
+            modelBuilder.Entity<PERSONAL>().HasKey(P => P.correo);
         }
     }
 }
