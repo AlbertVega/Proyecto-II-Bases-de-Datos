@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { PatientService } from '../../services/patient.service';
+import { Login } from '../../Interfaces/Login';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-patient-login',
@@ -9,13 +12,13 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 export class PatientLoginComponent implements OnInit{
   email: string = '';
   password: string = '';
-  formulario!: FormGroup;
+  form!: FormGroup;
   validate: boolean = false;
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder, private service: PatientService, private router: Router) { }
 
   ngOnInit(): void {
-    this.formulario = this.fb.group({
+    this.form = this.fb.group({
       email: [''],
       password: ['']
     });
@@ -23,15 +26,25 @@ export class PatientLoginComponent implements OnInit{
 
   onLogin() {
     //make request
-    const email = this.formulario.value.email;
-    const password = this.formulario.value.password;
-    if (email == 'admin' && password == 'admin') {
-      this.validate = false
-      console.log('Usuario y contraseña correctos')
-    } else {
-      this.validate = true
+    const request: Login = {
+      email: this.form.value.email,
+      password: this.form.value.password
     }
 
+    this.service.login(request).subscribe({
+      next: (data) => {
+        if (data.status) {
+          console.log(data.value);
+          console.log(data.message);
+          this.router.navigate(['patient-view']);
+          this.validate = false
+        } else {
+          console.log(data.value);
+          console.log(data.message);
+          this.validate = true
+        }
+      }
+    });
   }
 
   test(): boolean {

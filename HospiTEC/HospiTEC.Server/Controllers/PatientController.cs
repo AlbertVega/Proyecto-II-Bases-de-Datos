@@ -50,16 +50,36 @@ namespace HospiTEC.Server.Controllers
             return Ok(response);
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<IActionResult> setPatient([FromBody] Patient_dto patient_obj)
         {
             var response = new ResponseApi<Patient_dto>();
 
+            try { 
+                response.value = patient_obj;
+                response.status = await _patientDataClass.StorePatient(patient_obj); ;
+                response.message = response.status ? "Register successful" : "Register failed";
+                
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> LogPatient([FromBody] PatientLogin data)
+        {
+            var response = new ResponseApi<PatientLogin>();
+
             try
             {
-                response.status = true;
-                response.value = patient_obj;
-                await _patientDataClass.StorePatient(patient_obj);
+                response.value = data;
+                response.status = await _patientDataClass.ValidatePatientLogin(data);
+                response.message = response.status ? "Login successful" : "Login failed";
             }
             catch (Exception e)
             {

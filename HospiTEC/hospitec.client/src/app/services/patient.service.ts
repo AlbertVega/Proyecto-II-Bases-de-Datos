@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ResponseApi } from '../Interfaces/response-api';
 import { RegisterPatient } from '../Interfaces/Register';
+import { Login } from '../Interfaces/Login';
 
 @Injectable({
   providedIn: 'root'
@@ -18,6 +19,10 @@ export class PatientService {
   }
 
   setPatient(request: RegisterPatient): Observable<ResponseApi> {
-    return this.http.post<ResponseApi>(this.urlApi + "Patient", request);
+    return this.http.post<ResponseApi>(this.urlApi + "Patient/register", request);
+  }
+
+  login(request: Login): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Patient/login", request);
   }
 }
