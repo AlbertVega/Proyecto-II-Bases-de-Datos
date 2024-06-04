@@ -1,0 +1,39 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th> Cantidad de días mínimo de recuperación</th>
+              <th>Acciones</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of rows; let i = index">
+              <td class="id">
+                <p *ngIf="editingRow[i] == false">{{row.nombre}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.nombre" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.cantidad}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.cantidad" class="form-control">
+              </td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button *ngIf="editingRow[i] == false" (click)="editRow(i)" class="btn btn-outline-warning">Edit</button>
+                  <button *ngIf="editingRow[i] == true" (click)="saveRow(i)" class="btn btn-outline-success">Save</button>
+                  <button (click)="deleteRow(i)" class="btn btn-outline-danger">Delete</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <button (click)="addRow()" class="btn btn-primary">Add Row</button>
+  </div>
+</body>
+

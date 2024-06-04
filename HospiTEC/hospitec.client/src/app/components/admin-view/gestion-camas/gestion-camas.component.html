@@ -1,0 +1,56 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Número</th>
+              <th>Equipo Médico</th>
+              <th>Salón</th>
+              <th>UCI?</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of rows; let i = index">
+              <td class="id">
+                <p *ngIf="editingRow[i] == false">{{row.placa}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.placa" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.tipo}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.tipo" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.id_lab_fk}}</p>
+                <select *ngIf="editingRow[i] == true" [(ngModel)]="row.id_lab_fk" class="form-control">
+                  <option value="F2-05">F2-05</option>
+                  <option value="F2-06">F2-06</option>
+                  <option value="F2-07">F2-07</option>
+                  <option value="F2-08">F2-08</option>
+                  <option value="Operadores">Operadores</option>
+                </select>
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.prestamoRequiereAprobacion}}</p>
+                <select *ngIf="editingRow[i] == true" [(ngModel)]="row.prestamoRequiereAprobacion" class="form-control">
+                  <option value="Si">Si</option>
+                  <option value="No">No</option>
+                </select>
+              </td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button *ngIf="editingRow[i] == false" (click)="editRow(i)" class="btn btn-outline-warning">Edit</button>
+                  <button *ngIf="editingRow[i] == true" (click)="saveRow(i)" class="btn btn-outline-success">Save</button>
+                  <button (click)="deleteRow(i)" class="btn btn-outline-danger">Delete</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <button (click)="addRow()" class="btn btn-primary">Add Row</button>
+  </div>
+</body>
