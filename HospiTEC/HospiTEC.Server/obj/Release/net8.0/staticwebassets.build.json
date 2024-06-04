@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "OrcecQ4ze6cwFdtQG2c/2GhhWayWmQSdXFvCq70QziA=",
+  "Source": "HospiTEC.Server",
+  "BasePath": "_content/HospiTEC.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\hospitec.client.esproj",
+      "Version": 2,
+      "Source": "hospitec.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
