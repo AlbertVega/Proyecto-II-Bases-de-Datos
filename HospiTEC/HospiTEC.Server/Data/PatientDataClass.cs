@@ -1,5 +1,7 @@
 ﻿using HospiTEC.Server.Models;
 using HospiTEC.Server.Utility;
+using Microsoft.EntityFrameworkCore;
+using System.Collections;
 
 namespace HospiTEC.Server.Data
 {
@@ -41,9 +43,35 @@ namespace HospiTEC.Server.Data
             }
             catch (Exception e)
             {
+                Console.WriteLine(e);
                 return false;
             }
         }
+
+        public async Task<bool> ValidatePatientLogin(PatientLogin patient)
+        {
+            try
+            {
+                byte[] PW = PWEncryption.SHA256Encoding(patient.password);
+                PACIENTE login = await _context.paciente.Where(p => p.correo == patient.email && p.p_password == PW)
+                    .FirstOrDefaultAsync();
+
+                await _context.SaveChangesAsync();
+                Console.WriteLine(login);
+
+                if (login == null)
+                {
+                    return false;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return false;
+            }
+        }
+
     }
 }
 

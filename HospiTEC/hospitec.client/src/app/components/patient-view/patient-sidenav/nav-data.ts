@@ -7,6 +7,11 @@ export const navbarData = [
     routeLink: 'historial-view'
   },
   {
+    label: 'Gestión de reservaciones',
+    icon: 'fal fa-calendar-alt',
+    routeLink: 'gestion-reservacion'
+  },
+  {
     label: 'Restablecimiento de contraseña',
     icon: 'fal fa-key',
     routeLink: ''

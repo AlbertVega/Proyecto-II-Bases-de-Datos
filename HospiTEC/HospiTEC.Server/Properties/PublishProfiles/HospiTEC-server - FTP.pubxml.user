@@ -8,7 +8,99 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGcnooJdDdUSjDTL4fK1aBQAAAAACAAAAAAAQZgAAAAEAACAAAADP7C4W6V3buZCPHSx52JrG0THhlLWlPVtu1Aihay2yywAAAAAOgAAAAAIAACAAAADM5C59AO7SnLxX/XM0AGXBaxGIhdLXUjjhC5nGWf6RMIAAAAAUXmoQVkuGcetvi2a51rVnF1IAngbByEt0B7t/oi53UNCDBgV2iQtOuRhqNqRQyYa55VtLcXigju2oIDRPwJKdZr+NL4/zbnKBHECi6MkuKl0J/c9iSH/GYByDJYOtSxpRF+yDem62SvNTGgU7XyrpWUHuw9DC5ONqMH08RBCdwUAAAAAtMzNFzg+Kqg+iVYHEJ7Sve0YMNnkMZueJGAJpWIWjuCFICM43Al4t2ziPtLMHGrJGjY6g24cd5f8cyWV5CpxN</EncryptedPassword>
     <_PublishTargetUrl>ftps://waws-prod-blu-399.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
-    <History>True|2024-06-02T20:21:58.5069982Z||;False|2024-06-02T14:19:19.8409077-06:00||;False|2024-06-02T14:15:54.3332598-06:00||;False|2024-06-02T14:11:37.4226993-06:00||;</History>
+    <History>True|2024-06-04T01:04:54.5749865Z||;False|2024-06-03T19:03:22.6309359-06:00||;True|2024-06-03T18:25:28.0282903-06:00||;False|2024-06-03T18:24:11.4057465-06:00||;True|2024-06-03T18:12:18.3642205-06:00||;True|2024-06-03T15:31:10.8553489-06:00||;True|2024-06-03T13:26:31.5743973-06:00||;False|2024-06-03T13:24:50.4200806-06:00||;False|2024-06-03T13:22:48.1514748-06:00||;False|2024-06-03T13:21:59.0025769-06:00||;False|2024-06-03T13:20:31.1393432-06:00||;True|2024-06-03T13:00:24.4957259-06:00||;False|2024-06-03T12:59:04.1546788-06:00||;True|2024-06-03T12:52:46.3267595-06:00||;False|2024-06-03T12:51:30.4986679-06:00||;True|2024-06-02T23:52:17.5810842-06:00||;False|2024-06-02T23:47:00.1095403-06:00||;True|2024-06-02T23:28:49.3036315-06:00||;True|2024-06-02T22:58:48.4098456-06:00||;True|2024-06-02T14:21:58.5069982-06:00||;False|2024-06-02T14:19:19.8409077-06:00||;False|2024-06-02T14:15:54.3332598-06:00||;False|2024-06-02T14:11:37.4226993-06:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>05/27/2024 20:16:32</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>02/06/2024 21:15:52</publishTime>
+    </File>
+    <File Include="HospiTEC.Server.deps.json">
+      <publishTime>06/03/2024 19:04:07</publishTime>
+    </File>
+    <File Include="HospiTEC.Server.dll">
+      <publishTime>06/03/2024 19:03:49</publishTime>
+    </File>
+    <File Include="HospiTEC.Server.exe">
+      <publishTime>06/03/2024 19:03:49</publishTime>
+    </File>
+    <File Include="HospiTEC.Server.pdb">
+      <publishTime>06/03/2024 19:03:49</publishTime>
+    </File>
+    <File Include="HospiTEC.Server.runtimeconfig.json">
+      <publishTime>02/06/2024 22:57:22</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.SpaProxy.dll">
+      <publishTime>05/19/2024 22:26:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>05/19/2024 17:54:30</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>05/19/2024 17:55:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>05/19/2024 17:55:20</publishTime>
+    </File>
+    <File Include="Microsoft.OpenApi.dll">
+      <publishTime>08/29/2020 14:14:12</publishTime>
+    </File>
+    <File Include="Npgsql.dll">
+      <publishTime>09/05/2024 07:45:24</publishTime>
+    </File>
+    <File Include="Npgsql.EntityFrameworkCore.PostgreSQL.dll">
+      <publishTime>11/05/2024 10:08:28</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>07/19/2022 09:21:22</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>07/19/2022 09:21:38</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>07/19/2022 09:21:48</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/03/2024 19:04:07</publishTime>
+    </File>
+    <File Include="wwwroot/3rdpartylicenses.txt">
+      <publishTime>06/03/2024 19:04:07</publishTime>
+    </File>
+    <File Include="wwwroot/browser/assets/fondo.svg">
+      <publishTime>02/06/2024 21:15:53</publishTime>
+    </File>
+    <File Include="wwwroot/browser/assets/login.svg">
+      <publishTime>02/06/2024 21:15:53</publishTime>
+    </File>
+    <File Include="wwwroot/browser/favicon.ico">
+      <publishTime>05/27/2024 20:16:32</publishTime>
+    </File>
+    <File Include="wwwroot/browser/index.html">
+      <publishTime>06/03/2024 19:04:07</publishTime>
+    </File>
+    <File Include="wwwroot/browser/main-4KM436RK.js">
+      <publishTime>02/06/2024 23:51:34</publishTime>
+    </File>
+    <File Include="wwwroot/browser/main-IZ256ADS.js">
+      <publishTime>06/03/2024 19:02:51</publishTime>
+    </File>
+    <File Include="wwwroot/browser/main-UGC4DU2G.js">
+      <publishTime>06/03/2024 18:24:36</publishTime>
+    </File>
+    <File Include="wwwroot/browser/main-XK7GCVLF.js">
+      <publishTime>06/03/2024 19:04:07</publishTime>
+    </File>
+    <File Include="wwwroot/browser/polyfills-A7MJM4D4.js">
+      <publishTime>06/03/2024 19:04:07</publishTime>
+    </File>
+    <File Include="wwwroot/browser/scripts-FR7HA4WI.js">
+      <publishTime>06/03/2024 19:04:06</publishTime>
+    </File>
+    <File Include="wwwroot/browser/styles-DZ6UBGXD.css">
+      <publishTime>06/03/2024 19:04:06</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

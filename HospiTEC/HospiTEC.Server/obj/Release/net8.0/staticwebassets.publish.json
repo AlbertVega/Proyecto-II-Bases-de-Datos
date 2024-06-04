@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "utEagNz+tFROWc4zMjRddGYG85gpmTPmsKnAuZ4jh5o=",
+  "Hash": "gIEToKsnfI8kRu64pB8BrEfgPhGvGaYohk1ICOND5Gc=",
   "Source": "HospiTEC.Server",
   "BasePath": "_content/HospiTEC.Server",
   "Mode": "Default",
@@ -116,12 +116,12 @@
       "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\index.html"
     },
     {
-      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-5EVHUV66.js",
+      "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-XK7GCVLF.js",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
-      "RelativePath": "browser/main-5EVHUV66.js",
+      "RelativePath": "browser/main-XK7GCVLF.js",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -132,7 +132,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-5EVHUV66.js"
+      "OriginalItemSpec": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-XK7GCVLF.js"
     },
     {
       "Identity": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\polyfills-A7MJM4D4.js",

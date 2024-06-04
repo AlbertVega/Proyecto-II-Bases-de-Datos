@@ -1,0 +1,77 @@
+<body>
+  <div class="requester-form">
+    <h1>Reserva de cama</h1>
+    <h3>Datos del paciente</h3>
+    <form>
+      <div class="form-group form-name">
+        <label for="name">Nombre</label>
+        <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+      </div>
+      <div class="form-group form-fname">
+        <label for="lastName">Primer apellido</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Ingrese su primer apellido">
+      </div>
+      <div class="form-group form-lname">
+        <label for="lastName">Segundo apellido</label>
+        <input type="text" class="form-control" id="lastName" placeholder="Ingrese su segundo apellido">
+      </div>
+      <div class="form-group form-lab">
+        <label for="lab">Procedimiento a realizar</label>
+        <select class="form-select">
+          <option>Apendicectomía</option>
+          <option>Biopsia de mama</option>
+          <option>Cirugía de cataratas</option>
+          <option>Cesárea</option>
+          <option>Histerectomía</option>
+          <option>Cirugía para la lumbalgia</option>
+          <option>Mastectomía</option>
+          <option>Amigdalectomía</option>
+        </select>
+      </div>
+      <div class="form-group form-date">
+        <label for="date">Fecha de ingreso</label>
+        <input type="date" class="form-control" id="date">
+      </div>
+      <div class="form-group form-date">
+        <label for="date">Fecha de salida</label>
+        <input type="date" class="form-control" id="date" readonly>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary btn-add ">Reservar</button>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <h3>Reservas</h3>
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Procedimiento</th>
+              <th>Fecha de ingreso</th>
+              <th>Fecha de salida</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of rows; let i = index">
+              <td class="id">
+                <p>{{row.procedimiento}}</p>
+              </td>
+              <td>
+                <p>{{row.fecha_ingreso}}</p>
+              </td>
+              <td>
+                <p>{{row.fecha_salida}}</p>
+              </td>
+              <td>
+                <button (click)="deleteRow(i)" class="btn btn-outline-danger">Eliminar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>  
+</body>

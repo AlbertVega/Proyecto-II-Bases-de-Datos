@@ -6,7 +6,7 @@
       </div>
 
       <div class="col-md-6 right-box">
-        <div class="row align-items-center" [formGroup]="formulario">
+        <div class="row align-items-center">
           <div class="header-text mb-4">
             <p class="fs-1">Bienvenido a HospiTEC</p>
           </div>
@@ -16,7 +16,7 @@
               <small *ngIf="test()" class="text-danger">Correo o contraseña incorrectos</small>
             </div>
           </div>
-          <form>
+          <form [formGroup]="form">
             <div class="input-group mb-3">
               <input formControlName="email" type="email" class="form-control form-control-lg bg-light fs-6" placeholder="Email" autocomplete="off">
             </div>
