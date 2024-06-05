@@ -21,9 +21,9 @@ namespace HospiTEC.Server.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> setPersonal([FromBody] Employee_dto employee_obj)
+        public async Task<IActionResult> setPersonal([FromBody] EmployeeRol_dto employee_obj)
         {
-            var response = new ResponseApi<Employee_dto>();
+            var response = new ResponseApi<EmployeeRol_dto>();
 
             try
             {
@@ -130,6 +130,25 @@ namespace HospiTEC.Server.Controllers
                 response.status = await _salonDataClass.StoreSalon(salon_obj);
                 response.message = response.status ? "Register successful" : "Register failed";
 
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
+
+        [HttpGet("salon")]
+        public async Task<IActionResult> getSalon()
+        {
+            var response = new ResponseApi<List<SALON>>();
+
+            try
+            {
+                response.status = true;
+                response.value = await _salonDataClass.getSalon();
             }
             catch (Exception e)
             {

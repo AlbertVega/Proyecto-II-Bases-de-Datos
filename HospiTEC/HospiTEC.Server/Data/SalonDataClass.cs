@@ -1,4 +1,6 @@
-﻿namespace HospiTEC.Server.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace HospiTEC.Server.Data
 {
     public class SalonDataClass
     {
@@ -14,6 +16,32 @@
             try
             {
                 _context.salon.Add(salon_Dto);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+       public async Task<List<SALON>> getSalon()
+        {
+            try
+            {
+                return await _context.salon.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public async Task<bool> UpdateSalon(SALON salon_Dto)
+        {
+            try
+            {
+                _context.salon.Update(salon_Dto);
                 await _context.SaveChangesAsync();
                 return true;
             }

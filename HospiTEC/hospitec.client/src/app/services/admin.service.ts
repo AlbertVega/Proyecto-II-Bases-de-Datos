@@ -17,7 +17,7 @@ export class AdminService {
 
   constructor(private http: HttpClient) { }
 
-  setEmployee(request: RegisterEmployee): Observable<ResponseApi> {
+  setEmployee(request: EmployeeRol): Observable<ResponseApi> {
     return this.http.post<ResponseApi>(this.urlApi + "admin/register", request);
   }
 

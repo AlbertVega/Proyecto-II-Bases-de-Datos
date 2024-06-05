@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g3TVCWJuQCrDK/YNawb58i/KP97eKxOP0dMUzfM32UI=",
+  "Hash": "K2H8EK8/4dWG4u/rIoHwfbZiulxD2N/WrEhxYliS3f8=",
   "Source": "HospiTEC.Server",
   "BasePath": "_content/HospiTEC.Server",
   "Mode": "Default",
@@ -135,12 +135,12 @@
       "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-HMJA2RDA.js",
+      "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-WQGHNC5V.js",
       "SourceId": "hospitec.client",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\",
       "BasePath": "/",
-      "RelativePath": "browser/main-HMJA2RDA.js",
+      "RelativePath": "browser/main-WQGHNC5V.js",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -151,7 +151,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-HMJA2RDA.js"
+      "OriginalItemSpec": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\main-WQGHNC5V.js"
     },
     {
       "Identity": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\dist\\hospitec.client\\browser\\media\\Poppins-Regular-JNHL4IDV.ttf",

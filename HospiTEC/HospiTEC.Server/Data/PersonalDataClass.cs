@@ -13,13 +13,13 @@ namespace HospiTEC.Server.Data
             _context = context;
         }
 
-        public async Task<bool> StoreEmployee(Employee_dto employee_Dto)
+        public async Task<bool> StoreEmployee(EmployeeRol_dto employee_Dto)
         {
 
             try
             {
                 byte[] pw = PWEncryption.SHA256Encoding(employee_Dto.password);
-                DateOnly fecha_nacimiento = DateOnly.FromDateTime(employee_Dto.nacimiento);
+                DateOnly fecha_nacimiento = DateOnly.FromDateTime(employee_Dto.fechaNacimiento);
                 DateOnly fecha_ingreso = DateOnly.FromDateTime(employee_Dto.fechaIngreso);
 
                 var personal = new PERSONAL
@@ -28,7 +28,7 @@ namespace HospiTEC.Server.Data
                     apellido1 = employee_Dto.apellido1,
                     apellido2 = employee_Dto.apellido2,
                     cedula = employee_Dto.cedula,
-                    telefono = employee_Dto.numeroTel,
+                    telefono = employee_Dto.telefono,
                     provincia = employee_Dto.provincia,
                     canton = employee_Dto.canton,
                     distrito = employee_Dto.distrito,
@@ -38,7 +38,14 @@ namespace HospiTEC.Server.Data
                     fecha_ingreso = fecha_ingreso                
                 };
 
+                var rol = new ROL
+                {
+                    nombre = employee_Dto.rol,
+                    email_personal = employee_Dto.email
+                };
+
                 _context.personal.Add(personal);
+                _context.rol.Add(rol);
                 await _context.SaveChangesAsync();
                 return true;
             }

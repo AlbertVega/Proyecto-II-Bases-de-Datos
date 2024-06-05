@@ -24,7 +24,6 @@ export class GestionPersonalComponent {
     this.service.getEmployees().subscribe({
       next: (data) => {
         if (data.status) {
-          console.log(data.value);
           console.log(data.message);
           this.rows = data.value;
           for (let i = 0; i < this.rows.length; i++) {
@@ -71,19 +70,20 @@ export class GestionPersonalComponent {
   saveRow(index: number) {
     this.editingRow[index] = false;
     if (this.newRow[index] == true) {
-      const request: RegisterEmployee = {
+      const request: EmployeeRol = {
         nombre: this.rows[index].nombre,
         apellido1: this.rows[index].apellido1,
         apellido2: this.rows[index].apellido2,
         cedula: this.rows[index].cedula,
-        numeroTel: this.rows[index].telefono,
-        provincia: this.rows[index].provincia, //xd
-        canton: this.rows[index].canton, //xd
-        distrito: this.rows[index].distrito, //xd
-        nacimiento: new Date(this.rows[index].fechaNacimiento),
+        telefono: this.rows[index].telefono,
+        provincia: this.rows[index].provincia, 
+        canton: this.rows[index].canton, 
+        distrito: this.rows[index].distrito, 
+        fechaNacimiento: new Date(this.rows[index].fechaNacimiento),
         email: this.rows[index].email,
-        password: this.rows[index].password, //xd
-        fechaIngreso: new Date(this.rows[index].fechaIngreso)
+        password: this.rows[index].password, 
+        fechaIngreso: new Date(this.rows[index].fechaIngreso),
+        rol: this.rows[index].rol
       }
 
       this.service.setEmployee(request).subscribe({
@@ -105,14 +105,14 @@ export class GestionPersonalComponent {
         apellido2: this.rows[index].apellido2,
         cedula: this.rows[index].cedula,
         telefono: this.rows[index].telefono,
-        provincia: this.rows[index].provincia, //xd
-        canton: this.rows[index].canton, //xd
-        distrito: this.rows[index].distrito, //xd
+        provincia: this.rows[index].provincia, 
+        canton: this.rows[index].canton, 
+        distrito: this.rows[index].distrito, 
         fechaNacimiento: new Date(this.rows[index].fechaNacimiento),
         email: this.rows[index].email,
         password: this.rows[index].password, 
         fechaIngreso: new Date(this.rows[index].fechaIngreso),
-        rol: 'Administrativo'
+        rol: this.rows[index].rol
       }
 
       this.service.updateEmployee(request).subscribe({
