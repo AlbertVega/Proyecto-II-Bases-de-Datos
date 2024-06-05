@@ -1,7 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\patientdataclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\patientdataclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\hospitec_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\hospitec_db_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\historial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\data\\procedimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\data\\procedimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.server\\models\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CA4EC6-CD5A-431C-9CBF-02DFA8D81AAD}|HospiTEC.Server\\HospiTEC.Server.csproj|solutionrelative:hospitec.server\\models\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\interfaces\\history.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\interfaces\\history.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\services\\patient.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\services\\patient.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +46,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -20,8 +61,121 @@
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PROCEDIMIENTO.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\PROCEDIMIENTO.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\PROCEDIMIENTO.cs",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\PROCEDIMIENTO.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Data\\PROCEDIMIENTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:25:42.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HospiTEC_DB_Context.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Data\\HospiTEC_DB_Context.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:15:38.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HISTORIAL.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\HISTORIAL.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\HISTORIAL.cs",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\HISTORIAL.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Data\\HISTORIAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:15:15.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientDataClass.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\PatientDataClass.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Data\\PatientDataClass.cs",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Data\\PatientDataClass.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Data\\PatientDataClass.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAFMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:12:51.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "History.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\Interfaces\\History.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\Interfaces\\History.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\Interfaces\\History.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\Interfaces\\History.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-05T18:10:15.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "History.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Models\\History.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Models\\History.cs",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Models\\History.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Models\\History.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:07:14.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "HospiTEC.Server\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\HospiTEC.Server\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "HospiTEC.Server\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:04:53.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "historial-view.component.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\historial-view\\historial-view.component.ts",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-05T17:32:53.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "patient.service.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\services\\patient.service.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\services\\patient.service.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\services\\patient.service.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\services\\patient.service.ts",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-05T17:28:10.243Z",
+              "EditorCaption": ""
             }
           ]
         }

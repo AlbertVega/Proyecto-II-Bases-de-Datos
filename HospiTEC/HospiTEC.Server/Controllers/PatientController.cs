@@ -91,5 +91,25 @@ namespace HospiTEC.Server.Controllers
 
             return Ok(response);
         }
+
+        [HttpPost("history")]
+        public async Task<IActionResult> ShowPatientHistory([FromBody] History data)
+        {
+            var response = new ResponseApi<History>();
+
+            try
+            {
+                response.value = data;
+                response.status = await _patientDataClass.ConsultHistory(data);
+                response.message = response.status ? "Login successful" : "Login failed";
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
     }
 }

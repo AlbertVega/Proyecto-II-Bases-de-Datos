@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 import { ResponseApi } from '../Interfaces/response-api';
 import { RegisterPatient } from '../Interfaces/Register';
 import { Login } from '../Interfaces/login';
+import { History } from '../Interfaces/History';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +13,9 @@ import { Login } from '../Interfaces/login';
 export class PatientService {
 
   private urlApi: string = "https://hospitec-server.azurewebsites.net/api/";
+
+  private emailSource = new BehaviorSubject<string>('');
+  currentEmail = this.emailSource.asObservable();
 
   constructor(private http: HttpClient) { }
 
@@ -24,5 +29,13 @@ export class PatientService {
 
   login(request: Login): Observable<ResponseApi> {
     return this.http.post<ResponseApi>(this.urlApi + "Patient/login", request);
+  }
+
+  exchangeEmail(email: string) {
+    this.emailSource.next(email);
+  }
+
+  patientHistory(request: History): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "Patient/history", request);
   }
 }

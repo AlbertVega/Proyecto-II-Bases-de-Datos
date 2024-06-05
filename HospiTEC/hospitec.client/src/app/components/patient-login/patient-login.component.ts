@@ -38,6 +38,7 @@ export class PatientLoginComponent implements OnInit{
           console.log(data.message);
           this.router.navigate(['patient-view']);
           this.validate = false
+          this.service.exchangeEmail(this.form.value.email); //enviar email para el patient-view
         } else {
           console.log(data.value);
           console.log(data.message);
