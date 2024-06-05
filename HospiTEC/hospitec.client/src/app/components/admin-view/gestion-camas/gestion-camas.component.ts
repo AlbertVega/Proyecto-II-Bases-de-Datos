@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Cama } from '../../../Interfaces/Cama';
 
 @Component({
   selector: 'app-gestion-camas',
@@ -6,13 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './gestion-camas.component.css'
 })
 export class GestionCamasComponent {
-  rows = [
-    { placa: 1234, tipo: 'Computadora', marca: 'HP', fecha_compra: '2021-01-01', prestamoRequiereAprobacion: 'No', id_lab_fk: 'F2-08' },
-    { placa: 5678, tipo: 'Computadora', marca: 'HP', fecha_compra: '2021-01-01', prestamoRequiereAprobacion: 'No', id_lab_fk: 'F2-08' },
-    { placa: 9101, tipo: 'Computadora', marca: 'HP', fecha_compra: '2021-01-01', prestamoRequiereAprobacion: 'No', id_lab_fk: 'F2-08' }
-  ];
-
+  rows: Cama[] = [];
   editingRow: boolean[] = [];
+  newRow: boolean[] = [];
 
   /*
   * Constructor
@@ -23,6 +20,7 @@ export class GestionCamasComponent {
   constructor() {
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
+      this.newRow.push(false);
     }
   }
 
@@ -33,8 +31,9 @@ export class GestionCamasComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    this.rows.push({ placa: 0, tipo: '', marca: '', fecha_compra: '', prestamoRequiereAprobacion: '', id_lab_fk: '' });
+    this.rows.push({ numero: 0, is_uci: false, disponible: false, numero_salon: 0 });
     this.editingRow.push(true);
+    this.newRow.push(true);
   }
 
   /*
@@ -55,6 +54,7 @@ export class GestionCamasComponent {
   */
   saveRow(index: number) {
     this.editingRow[index] = false;
+    this.newRow[index] = false;
   }
 
   /*

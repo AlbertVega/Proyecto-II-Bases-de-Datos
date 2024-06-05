@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Procedimiento } from '../../../Interfaces/Procedimiento';
 
 @Component({
   selector: 'app-gestion-procedimientos',
@@ -6,19 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './gestion-procedimientos.component.css'
 })
 export class GestionProcedimientosComponent {
-  rows = [
-    { nombre: 'Apendicectomía', cantidad:2 },
-    { nombre: 'Biopsia de mama', cantidad: 1 },
-    { nombre: 'Cirugía de cataratas', cantidad: 1 },
-    { nombre: 'Cesárea', cantidad: 2 },
-    { nombre: 'Histerectomía', cantidad: 1 },
-    { nombre: 'Cirugía para la lumbalgia', cantidad: 3 },
-    { nombre: 'Mastectomía', cantidad: 3 },
-    { nombre: 'Amigdalectomía', cantidad: 1 },
-
-  ];
-
+  rows: Procedimiento[] = [];
   editingRow: boolean[] = [];
+  newRow: boolean[] = [];
 
   /*
   * Constructor
@@ -30,6 +21,7 @@ export class GestionProcedimientosComponent {
 
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
+      this.newRow.push(false);
     }
   }
 
@@ -40,8 +32,9 @@ export class GestionProcedimientosComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    this.rows.push({ nombre: '', cantidad: 0});
+    this.rows.push({ nombre: '', dias_recuperacion: 0, ID_reserva_FK: 0 });
     this.editingRow.push(true);
+    this.newRow.push(true);
   }
 
   /*
@@ -62,6 +55,7 @@ export class GestionProcedimientosComponent {
   */
   saveRow(index: number) {
     this.editingRow[index] = false;
+    this.newRow[index] = false;
   }
 
   /*
