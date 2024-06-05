@@ -26,8 +26,7 @@ import { GestionEquipoComponent } from './components/admin-view/gestion-equipo/g
 import { GestionCamasComponent } from './components/admin-view/gestion-camas/gestion-camas.component';
 import { GestionPersonalComponent } from './components/admin-view/gestion-personal/gestion-personal.component';
 import { GestionProcedimientosComponent } from './components/admin-view/gestion-procedimientos/gestion-procedimientos.component'
-
-
+import { PatientReportComponent } from './components/patient-view/patient-report/patient-report.component';
 
 @NgModule({
   declarations: [
@@ -50,12 +49,11 @@ import { GestionProcedimientosComponent } from './components/admin-view/gestion-
     AdminSidenavComponent,
     GestionSalonComponent,
     ExcelUploaderComponent,
-
-
     GestionEquipoComponent,
     GestionCamasComponent,
     GestionPersonalComponent,
-    GestionProcedimientosComponent
+    GestionProcedimientosComponent,
+    PatientReportComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

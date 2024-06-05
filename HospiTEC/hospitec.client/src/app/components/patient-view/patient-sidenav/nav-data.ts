@@ -16,7 +16,11 @@ export const navbarData = [
     icon: 'fal fa-key',
     routeLink: ''
   },
-
+  {
+    label: 'Evaluar Servicio',
+    icon: 'fal book',
+    routeLink: 'patient-report'
+  },
   {
     routeLink: '',
     icon: 'fa fa-sign-out-alt',
