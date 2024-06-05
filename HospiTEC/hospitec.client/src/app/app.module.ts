@@ -16,6 +16,7 @@ import { DoctorBodyComponent } from './components/doctor-view/doctor-body/doctor
 import { DoctorSidenavComponent } from './components/doctor-view/doctor-sidenav/doctor-sidenav.component';
 import { AddPatientComponent } from './components/doctor-view/add-patient/add-patient.component';
 import { GestionReservacionComponent } from './components/patient-view/gestion-reservacion/gestion-reservacion.component';
+import { PatientReportComponent } from './components/patient-view/patient-report/patient-report.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { GestionReservacionComponent } from './components/patient-view/gestion-r
     DoctorBodyComponent,
     DoctorSidenavComponent,
     AddPatientComponent,
-    GestionReservacionComponent
+    GestionReservacionComponent,
+    PatientReportComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

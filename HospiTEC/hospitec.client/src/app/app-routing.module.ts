@@ -8,6 +8,7 @@ import { DoctorLoginComponent } from './components/doctor-login/doctor-login.com
 import { DoctorViewComponent } from './components/doctor-view/doctor-view.component';
 import { AddPatientComponent } from './components/doctor-view/add-patient/add-patient.component';
 import { GestionReservacionComponent } from './components/patient-view/gestion-reservacion/gestion-reservacion.component';
+import { PatientReportComponent } from './components/patient-view/patient-report/patient-report.component';
 
 const routes: Routes = [
   { path: 'patient-reg', component: PatientRegisterComponent },
@@ -16,7 +17,8 @@ const routes: Routes = [
     path: 'patient-view', component: PatientViewComponent,
     children: [
         { path: 'historial-view', component: HistorialViewComponent },
-        { path: 'gestion-reservacion', component: GestionReservacionComponent}
+        { path: 'gestion-reservacion', component: GestionReservacionComponent},
+        { path: 'patient-report', component: PatientReportComponent}
       ]
   },
   { path: 'doctor-login', component: DoctorLoginComponent },
