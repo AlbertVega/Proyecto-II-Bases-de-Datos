@@ -10,12 +10,13 @@ import { DeleteEmployee } from '../../../Interfaces/DeleteEmpoyee';
 })
 export class GestionPersonalComponent {
   rows = [
-    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', direccion: 'san juan', email: 'jpg@gmail.com', fecha_ingreso: '2024-05-14' },
-    { cedula: '987654321', nombre: 'Maria', apellido1: 'Gomez', apellido2: 'Gonzalez', edad: '30', fecha_nacimiento: '01-01-1990', telefono: '83421558', direccion: 'san juan', email: 'asd@gmail.com', fecha_ingreso: '03-01-2020' },
-    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', direccion: 'san juan', email: 'qwe@gmail.com', fecha_ingreso: '03-01-2020' },
+    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', provincia: 'san juan', distrito: 'macori', canton: 'macondo', email: 'jpg@gmail.com', password: 'adfbniu', fecha_ingreso: '2024-05-14' },
+    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', provincia: 'san juan', distrito: 'macori', canton: 'macondo', email: 'qwe@gmasd.com', password: 'adfbniu', fecha_ingreso: '2024-05-14' },
+    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', provincia: 'san juan', distrito: 'macori', canton: 'macondo', email: 'qwe@gmasd.com', password: 'adfbniu', fecha_ingreso: '2024-05-14' },
   ];
 
   editingRow: boolean[] = [];
+  newRow: boolean[] = [];
 
   /*
   * Constructor
@@ -40,6 +41,7 @@ export class GestionPersonalComponent {
 
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
+      this.newRow.push(false);
     }
   }
 
@@ -50,8 +52,9 @@ export class GestionPersonalComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    this.rows.push({ cedula: '', nombre: '', apellido1: '', apellido2: '', edad: '', fecha_nacimiento: '', telefono: '', direccion: '', email: '', fecha_ingreso: '' });
+    this.rows.push({ cedula: '', nombre: '', apellido1: '', apellido2: '', edad: '', fecha_nacimiento: '', telefono: '', provincia: '', distrito: '', canton: '', email: '', password: '', fecha_ingreso: '' });
     this.editingRow.push(true);
+    this.newRow.push(true);
   }
 
   /*
@@ -78,26 +81,40 @@ export class GestionPersonalComponent {
       apellido2: this.rows[index].apellido2,
       cedula: parseInt(this.rows[index].cedula),
       numeroTel: parseInt(this.rows[index].telefono),
-      provincia: this.rows[index].direccion, //xd
-      canton: this.rows[index].direccion, //xd
-      distrito: this.rows[index].direccion, //xd
+      provincia: this.rows[index].provincia, //xd
+      canton: this.rows[index].canton, //xd
+      distrito: this.rows[index].distrito, //xd
       nacimiento: new Date(this.rows[index].fecha_nacimiento),
       email: this.rows[index].email,
-      password: this.rows[index].email, //xd
+      password: this.rows[index].password, //xd
       fechaIngreso: new Date(this.rows[index].fecha_ingreso)
     }
-
-    this.service.setEmployee(request).subscribe({
-      next: (data) => {
-        if (data.status) {
-          console.log(data.value);
-          console.log(data.message);
-        } else {
-          console.log(data.value);
-          console.log(data.message);
+    if (this.newRow[index] == true) {
+      this.service.setEmployee(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.value);
+            console.log(data.message);
+          } else {
+            console.log(data.value);
+            console.log(data.message);
+          }
         }
-      }
-    });
+      });
+      this.newRow[index] = false;
+    } else {
+      this.service.updateEmployee(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.value);
+            console.log(data.message);
+          } else {
+            console.log(data.value);
+            console.log(data.message);
+          }
+        }
+      });
+    }
 
   }
 

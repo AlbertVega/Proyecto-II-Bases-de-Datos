@@ -12,8 +12,11 @@
               <th>Edad</th>
               <th>Fecha de Nacimiento</th>
               <th>Teléfono</th>
-              <th>Dirección</th>
+              <th>Provincia</th>
+              <th>Cantón</th>
+              <th>Distrito</th>
               <th>Correo</th>
+              <th>Contraseña</th>
               <th>Fecha de Ingreso</th>
               <th>Acciones</th>
             </tr>
@@ -48,12 +51,24 @@
                 <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.telefono" class="form-control">
               </td>
               <td>
-                <p *ngIf="editingRow[i] == false">{{row.direccion}}</p>
-                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.direccion" class="form-control">
+                <p *ngIf="editingRow[i] == false">{{row.provincia}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.provincia" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.canton}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.canton" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.distrito}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.distrito" class="form-control">
               </td>
               <td>
                 <p *ngIf="editingRow[i] == false">{{row.email}}</p>
                 <input *ngIf="editingRow[i] == true" type="email" [(ngModel)]="row.email" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.password}}</p>
+                <input *ngIf="editingRow[i] == true" type="password" [(ngModel)]="row.password" class="form-control">
               </td>
               <td>
                 <p *ngIf="editingRow[i] == false">{{row.fecha_ingreso}}</p>
