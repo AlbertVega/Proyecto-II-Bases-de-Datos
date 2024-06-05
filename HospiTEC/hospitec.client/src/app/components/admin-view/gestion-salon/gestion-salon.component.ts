@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Salon } from '../../../Interfaces/Salon';
 
 @Component({
   selector: 'app-gestion-salon',
@@ -6,13 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './gestion-salon.component.css'
 })
 export class GestionSalonComponent {
-  rows = [
-    { numero: 1, nombre: 'Quirúrgico', capacidad: 2, tipo: 1,piso:0 },
-    { numero: 2, nombre: 'Pediatra', capacidad: 18, tipo: 3,piso:1 }
-   
-  ];
-
+  rows: Salon[] = [];
   editingRow: boolean[] = [];
+  newRow: boolean[] = [];
 
   /*
   * Constructor
@@ -24,6 +21,7 @@ export class GestionSalonComponent {
 
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
+      this.newRow.push(false);
     }
   }
 
@@ -34,8 +32,9 @@ export class GestionSalonComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    this.rows.push({ numero:0,nombre: '',  capacidad: 0,tipo:0,piso:0 });
+    this.rows.push({ numero: 0, nombre: '', piso: 0, medicina: '', capacidad_camas: 0 });
     this.editingRow.push(true);
+    this.newRow.push(true);
   }
 
   /*
@@ -56,6 +55,7 @@ export class GestionSalonComponent {
   */
   saveRow(index: number) {
     this.editingRow[index] = false;
+    this.newRow[index] = false;
   }
 
   /*

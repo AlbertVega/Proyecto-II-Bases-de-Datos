@@ -25,12 +25,16 @@
                 <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.nombre" class="form-control">
               </td>
               <td>
-                <p *ngIf="editingRow[i] == false">{{row.capacidad}}</p>
-                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.capacidad" class="form-control">
+                <p *ngIf="editingRow[i] == false">{{row.capacidad_camas}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.capacidad_camas" class="form-control">
               </td>
               <td>
-                <p *ngIf="editingRow[i] == false">{{row.tipo}}</p>
-                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.tipo" class="form-control">
+                <p *ngIf="editingRow[i] == false">{{row.medicina}}</p>
+                <select *ngIf="editingRow[i] == true" [(ngModel)]="row.medicina" class="form-control">
+                  <option value="Hombres">Hombres</option>
+                  <option value="Mujeres">Mujeres</option>
+                  <option value="Niños">Niños</option>
+                </select>
               </td>
               <td>
                 <p *ngIf="editingRow[i] == false">{{row.piso}}</p>

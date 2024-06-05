@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EquipoMedico } from '../../../Interfaces/EquipoMedico';
 
 @Component({
   selector: 'app-gestion-equipo',
@@ -6,17 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './gestion-equipo.component.css'
 })
 export class GestionEquipoComponent {
-  rows = [
-    { nombre: 'Luces quirúrgicas', proveedor: 'TEC', cantidad: 2 },
-    { nombre: 'Ultrasonidos', proveedor: 'TEC', cantidad: 5 },
-    { nombre: 'Esterilizadores', proveedor: 'TEC', cantidad: 10 },
-    { nombre: 'Desfibriladores', proveedor: 'TEC', cantidad: 20 },
-    { nombre: 'Monitores', proveedor: 'TEC', cantidad: 30 },
-    { nombre: 'Respiradores artificiales', proveedor: 'TEC', cantidad: 40 },
-    { nombre: 'Electrocardiógrafos', proveedor: 'TEC', cantidad: 50 },
-  ];
-
+  rows: EquipoMedico[] = [];
   editingRow: boolean[] = [];
+  newRow: boolean[] = [];
 
   /*
   * Constructor
@@ -27,6 +20,7 @@ export class GestionEquipoComponent {
   constructor() {
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
+      this.newRow.push(false);
     }
   }
 
@@ -37,8 +31,9 @@ export class GestionEquipoComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    this.rows.push({ nombre: '', proveedor: '', cantidad: 0 });
+    this.rows.push({ numero_cama: 0, nombre: '', cantidad: 0, proveedor: '' });
     this.editingRow.push(true);
+    this.newRow.push(true);
   }
 
   /*
@@ -59,6 +54,7 @@ export class GestionEquipoComponent {
   */
   saveRow(index: number) {
     this.editingRow[index] = false;
+    this.newRow[index] = false;
   }
 
   /*

@@ -2,6 +2,6 @@ export interface Salon {
   numero: number;
   nombre: string;
   piso: number;
-  medicida: string;
+  medicina: string;
   capacidad_camas: number;
 }

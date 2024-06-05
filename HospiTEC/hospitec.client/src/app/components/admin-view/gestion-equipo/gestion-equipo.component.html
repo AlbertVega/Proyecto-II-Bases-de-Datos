@@ -13,9 +13,13 @@
           </thead>
           <tbody>
             <tr *ngFor="let row of rows; let i = index">
-              <td class="id">
+              <td>
                 <p *ngIf="editingRow[i] == false">{{row.nombre}}</p>
                 <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.nombre" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.numero_cama}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.numero_cama" class="form-control">
               </td>
               <td>
                 <p *ngIf="editingRow[i] == false">{{row.proveedor}}</p>

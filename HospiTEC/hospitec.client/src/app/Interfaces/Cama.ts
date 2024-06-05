@@ -1,6 +1,6 @@
 export interface Cama {
   numero: number;
-  is_UCI: boolean;
+  is_uci: boolean;
   disponible: boolean;
   numero_salon: number;
 }
