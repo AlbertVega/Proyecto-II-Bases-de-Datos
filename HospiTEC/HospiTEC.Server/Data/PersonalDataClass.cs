@@ -75,5 +75,61 @@ namespace HospiTEC.Server.Data
                 return false;
             }
         }
+
+        public async Task<List<EmployeeRol_dto>> getPersonal()
+        {
+            try
+            {
+                var query = from p in _context.personal
+                            join r in _context.rol on p.email equals r.email_personal
+                            select new EmployeeRol_dto
+                            {
+                                email = p.email,
+                                nombre = p.nombre,
+                                apellido1 = p.apellido1,
+                                apellido2 = p.apellido2,
+                                cedula = p.cedula,
+                                telefono = p.telefono,
+                                provincia = p.provincia,
+                                canton = p.canton,
+                                distrito = p.distrito,
+                                fechaNacimiento = p.fecha_nacimiento,
+                                fechaIngreso = p.fecha_ingreso,
+                                rol = r.nombre
+                            };
+
+                return query.ToList();
+
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public async Task<bool> deletePersonal(DeleteEmployee_dto employee)
+        {
+            try
+            {
+                var personal = await _context.personal.Where(p => p.email == employee.email)
+                                                      .FirstOrDefaultAsync();
+
+                var rol = await _context.rol.Where(r => r.email_personal == employee.email && r.nombre == employee.rol)
+                                            .FirstOrDefaultAsync();
+
+                if (personal != null && rol != null)
+                {
+                    _context.rol.Remove(rol);
+                    _context.personal.Remove(personal);
+                    await _context.SaveChangesAsync();
+                    return true;
+                }                
+                return false;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
     }
 }

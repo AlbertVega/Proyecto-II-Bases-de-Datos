@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AdminService } from '../../../services/admin.service';
 import { RegisterEmployee } from '../../../Interfaces/RegisterEmployee';
+import { DeleteEmployee } from '../../../Interfaces/DeleteEmpoyee';
 
 @Component({
   selector: 'app-gestion-personal',
@@ -23,6 +24,20 @@ export class GestionPersonalComponent {
   * Funcionamiento: se encarga de obtener los profesores
   */
   constructor(private service: AdminService) {
+    this.service.getEmployees().subscribe({
+      next: (data) => {
+        if (data.status) {
+          console.log(data.value);
+          console.log(data.message);
+          this.rows = data.value;
+
+        } else {
+          console.log(data.value);
+          console.log(data.message);
+        }
+      }
+    });
+
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
     }
@@ -93,6 +108,23 @@ export class GestionPersonalComponent {
   * Funcionamiento: elimina la fila de la tabla
   */
   deleteRow(index: number) {
+    const request: DeleteEmployee = {
+      email: this.rows[index].email,
+      rol: 'Administrativo'
+    }
+
+    this.service.deleteEmployee(request).subscribe({
+      next: (data) => {
+        if (data.status) {
+          console.log(data.value);
+          console.log(data.message);
+        } else {
+          console.log(data.value);
+          console.log(data.message);
+        }
+      }
+    });
+
     this.rows.splice(index, 1);
     this.editingRow.splice(index, 1);
   }

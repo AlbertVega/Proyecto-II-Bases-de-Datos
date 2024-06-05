@@ -60,6 +60,42 @@ namespace HospiTEC.Server.Controllers
             return Ok(response);
         }
 
+        [HttpGet("personal")]
+        public async Task<IActionResult> getPersonal()
+        {
+            var response = new ResponseApi<List<EmployeeRol_dto>>();
 
+            try
+            {
+                response.status = true;
+                response.value = await _personalDataClass.getPersonal();
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("delete")]
+        public async Task<IActionResult> deletePersonal([FromBody]DeleteEmployee_dto employee)
+        {
+            var response = new ResponseApi<string>();
+
+            try
+            {
+                response.status = await _personalDataClass.deletePersonal(employee);
+                response.message = response.status ? "Delete successful" : "Delete failed";
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
     }
 }
