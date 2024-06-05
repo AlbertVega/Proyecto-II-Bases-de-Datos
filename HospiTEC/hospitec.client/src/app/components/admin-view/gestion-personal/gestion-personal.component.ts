@@ -11,7 +11,6 @@ import { EmployeeRol } from '../../../Interfaces/EmployeeRol';
 })
 export class GestionPersonalComponent {
   rows: EmployeeRol[] = [];
-
   editingRow: boolean[] = [];
   newRow: boolean[] = [];
 
@@ -28,6 +27,10 @@ export class GestionPersonalComponent {
           console.log(data.value);
           console.log(data.message);
           this.rows = data.value;
+          for (let i = 0; i < this.rows.length; i++) {
+            this.editingRow.push(false);
+            this.newRow.push(false);
+          }
 
         } else {
           console.log(data.value);
@@ -35,11 +38,6 @@ export class GestionPersonalComponent {
         }
       }
     });
-
-    for (let i = 0; i < this.rows.length; i++) {
-      this.editingRow.push(false);
-      this.newRow.push(false);
-    }
   }
 
   /*
@@ -49,8 +47,7 @@ export class GestionPersonalComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    //this.rows.push({ cedula: 0, nombre: '', apellido1: '', apellido2: '', fechaNacimiento: new Date(), telefono: 0, provincia: '', distrito: '', canton: '', email: '', password: '', fechaIngreso: new Date() });
-    this.rows.push();
+    this.rows.push({ email: '', password: '', nombre: '', apellido1: '', apellido2: '', cedula: 0, telefono: 0, provincia: '', canton: '', distrito: '', fechaNacimiento: new Date(), fechaIngreso: new Date(), rol: '' });
     this.editingRow.push(true);
     this.newRow.push(true);
   }
