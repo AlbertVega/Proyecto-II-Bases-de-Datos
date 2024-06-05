@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AdminService } from '../../../services/admin.service';
+import { RegisterEmployee } from '../../../Interfaces/RegisterEmployee';
 
 @Component({
   selector: 'app-gestion-personal',
@@ -20,7 +22,7 @@ export class GestionPersonalComponent {
   * Salidas: ninguna
   * Funcionamiento: se encarga de obtener los profesores
   */
-  constructor() {
+  constructor(private service: AdminService) {
     for (let i = 0; i < this.rows.length; i++) {
       this.editingRow.push(false);
     }
@@ -55,6 +57,33 @@ export class GestionPersonalComponent {
   */
   saveRow(index: number) {
     this.editingRow[index] = false;
+    const request: RegisterEmployee = {
+      nombre: this.rows[index].nombre,
+      apellido1: this.rows[index].apellido1,
+      apellido2: this.rows[index].apellido2,
+      cedula: parseInt(this.rows[index].cedula),
+      numeroTel: parseInt(this.rows[index].telefono),
+      provincia: this.rows[index].direccion, //xd
+      canton: this.rows[index].direccion, //xd
+      distrito: this.rows[index].direccion, //xd
+      nacimiento: new Date(this.rows[index].fecha_nacimiento),
+      email: this.rows[index].email,
+      password: this.rows[index].email, //xd
+      fechaIngreso: new Date(this.rows[index].fecha_ingreso)
+    }
+
+    this.service.setEmployee(request).subscribe({
+      next: (data) => {
+        if (data.status) {
+          console.log(data.value);
+          console.log(data.message);
+        } else {
+          console.log(data.value);
+          console.log(data.message);
+        }
+      }
+    });
+
   }
 
   /*

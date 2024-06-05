@@ -50,7 +50,7 @@ namespace HospiTEC.Server.Data
             }
         }
 
-        public async Task<bool> ValidatePatientLogin(PatientLogin patient)
+        public async Task<bool> ValidatePatientLogin(Login patient)
         {
             try
             {

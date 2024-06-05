@@ -73,9 +73,9 @@ namespace HospiTEC.Server.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> LogPatient([FromBody] PatientLogin data)
+        public async Task<IActionResult> LogPatient([FromBody] Login data)
         {
-            var response = new ResponseApi<PatientLogin>();
+            var response = new ResponseApi<Login>();
 
             try
             {

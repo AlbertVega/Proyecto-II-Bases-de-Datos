@@ -2,22 +2,30 @@
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
     <div class="row box-area bg-white shadow h-100">
 
+      <div class="col-md-6 left-box" style="background-image: url('../../assets/login.svg'); background-size:cover; background-position:30% ;">
+      </div>
+
       <div class="col-md-6 right-box">
         <div class="row align-items-center">
           <div class="header-text mb-4">
             <p class="fs-1">Bienvenido a HospiTEC</p>
           </div>
           <div class="text mb-3" style="text-align: left; padding-left: 15px;">
-            <p class="fs-5">Inicio de sesión</p>
+            <div class="small-container mb-3">
+              <p class="fs-5">Inicio de sesión</p>
+              <small *ngIf="test()" class="text-danger">Correo o contraseña incorrectos</small>
+            </div>
           </div>
-          <div class="input-group mb-3">
-            <input  type="email" class="form-control form-control-lg bg-light fs-6" placeholder="Correo">
-          </div>
-          <div class="input-group mb-3">
-            <input  type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Contraseña">
-          </div>
+          <form [formGroup]="form">
+            <div class="input-group mb-3">
+              <input formControlName="email" type="email" class="form-control form-control-lg bg-light fs-6" placeholder="Email" autocomplete="off">
+            </div>
+            <div class="input-group mb-3">
+              <input formControlName="password" type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Contraseña" autocomplete="off">
+            </div>
+          </form>
           <div class="input-group mt-4">
-            <button class="btn btn-lg btn-dark w-100 fs-6" (click)="onLogin()">Iniciar sesión</button>
+            <button (click)="onLogin()" class="btn btn-lg w-100 fs-6">Iniciar sesión</button>
           </div>
         </div>
       </div>
