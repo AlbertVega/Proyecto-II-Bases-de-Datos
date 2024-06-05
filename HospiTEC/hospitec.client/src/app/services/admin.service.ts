@@ -5,6 +5,8 @@ import { ResponseApi } from '../Interfaces/response-api';
 import { RegisterEmployee } from '../Interfaces/RegisterEmployee';
 import { Login } from '../Interfaces/login';
 import { DeleteEmployee } from '../Interfaces/DeleteEmpoyee';
+import { EmployeeRol } from '../Interfaces/EmployeeRol';
+import { Salon } from '../Interfaces/Salon';
 
 @Injectable({
   providedIn: 'root'
@@ -29,5 +31,13 @@ export class AdminService {
 
   deleteEmployee(request: DeleteEmployee): Observable<ResponseApi> {
     return this.http.post<ResponseApi>(this.urlApi + "admin/delete", request);
+  }
+
+  updateEmployee(request: EmployeeRol): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "admin/update", request);
+  }
+
+  setSalon(request: Salon): Observable<ResponseApi> {
+    return this.http.post<ResponseApi>(this.urlApi + "admin/registerSalon", request);
   }
 }

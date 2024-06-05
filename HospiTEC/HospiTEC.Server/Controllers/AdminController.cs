@@ -11,11 +11,13 @@ namespace HospiTEC.Server.Controllers
     {
         private readonly HospiTEC_DB_Context _context;
         private PersonalDataClass _personalDataClass;
+        private SalonDataClass _salonDataClass;
 
         public AdminController(HospiTEC_DB_Context context)
         {
             _context = context;
             _personalDataClass = new PersonalDataClass(context);
+            _salonDataClass = new SalonDataClass(context);
         }
 
         [HttpPost("register")]
@@ -97,5 +99,46 @@ namespace HospiTEC.Server.Controllers
 
             return Ok(response);
         }
+
+        [HttpPost("update")]
+        public async Task<IActionResult> updatePersonal([FromBody]EmployeeRol_dto employee)
+        {
+            var response = new ResponseApi<string>();
+
+            try
+            {
+                response.status = await _personalDataClass.updatePersonal(employee);
+                response.message = response.status ? "Update successful" : "Update failed";
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("registerSalon")]
+        public async Task<IActionResult> setSalon([FromBody] SALON salon_obj)
+        {
+            var response = new ResponseApi<SALON>();
+
+            try
+            {
+                response.value = salon_obj;
+                response.status = await _salonDataClass.StoreSalon(salon_obj);
+                response.message = response.status ? "Register successful" : "Register failed";
+
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
+
     }
 }

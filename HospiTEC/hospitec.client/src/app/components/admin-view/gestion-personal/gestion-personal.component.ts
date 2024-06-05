@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { AdminService } from '../../../services/admin.service';
 import { RegisterEmployee } from '../../../Interfaces/RegisterEmployee';
 import { DeleteEmployee } from '../../../Interfaces/DeleteEmpoyee';
+import { EmployeeRol } from '../../../Interfaces/EmployeeRol';
 
 @Component({
   selector: 'app-gestion-personal',
@@ -9,11 +10,7 @@ import { DeleteEmployee } from '../../../Interfaces/DeleteEmpoyee';
   styleUrl: './gestion-personal.component.css'
 })
 export class GestionPersonalComponent {
-  rows = [
-    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', provincia: 'san juan', distrito: 'macori', canton: 'macondo', email: 'jpg@gmail.com', password: 'adfbniu', fecha_ingreso: '2024-05-14' },
-    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', provincia: 'san juan', distrito: 'macori', canton: 'macondo', email: 'qwe@gmasd.com', password: 'adfbniu', fecha_ingreso: '2024-05-14' },
-    { cedula: '123456789', nombre: 'Juan', apellido1: 'Perez', apellido2: 'Gonzalez', edad: '25', fecha_nacimiento: '01-01-1995', telefono: '83421558', provincia: 'san juan', distrito: 'macori', canton: 'macondo', email: 'qwe@gmasd.com', password: 'adfbniu', fecha_ingreso: '2024-05-14' },
-  ];
+  rows: EmployeeRol[] = [];
 
   editingRow: boolean[] = [];
   newRow: boolean[] = [];
@@ -52,7 +49,8 @@ export class GestionPersonalComponent {
    * Funcionamiento: agrega una fila a la tabla
    */
   addRow() {
-    this.rows.push({ cedula: '', nombre: '', apellido1: '', apellido2: '', edad: '', fecha_nacimiento: '', telefono: '', provincia: '', distrito: '', canton: '', email: '', password: '', fecha_ingreso: '' });
+    //this.rows.push({ cedula: 0, nombre: '', apellido1: '', apellido2: '', fechaNacimiento: new Date(), telefono: 0, provincia: '', distrito: '', canton: '', email: '', password: '', fechaIngreso: new Date() });
+    this.rows.push();
     this.editingRow.push(true);
     this.newRow.push(true);
   }
@@ -75,21 +73,22 @@ export class GestionPersonalComponent {
   */
   saveRow(index: number) {
     this.editingRow[index] = false;
-    const request: RegisterEmployee = {
-      nombre: this.rows[index].nombre,
-      apellido1: this.rows[index].apellido1,
-      apellido2: this.rows[index].apellido2,
-      cedula: parseInt(this.rows[index].cedula),
-      numeroTel: parseInt(this.rows[index].telefono),
-      provincia: this.rows[index].provincia, //xd
-      canton: this.rows[index].canton, //xd
-      distrito: this.rows[index].distrito, //xd
-      nacimiento: new Date(this.rows[index].fecha_nacimiento),
-      email: this.rows[index].email,
-      password: this.rows[index].password, //xd
-      fechaIngreso: new Date(this.rows[index].fecha_ingreso)
-    }
     if (this.newRow[index] == true) {
+      const request: RegisterEmployee = {
+        nombre: this.rows[index].nombre,
+        apellido1: this.rows[index].apellido1,
+        apellido2: this.rows[index].apellido2,
+        cedula: this.rows[index].cedula,
+        numeroTel: this.rows[index].telefono,
+        provincia: this.rows[index].provincia, //xd
+        canton: this.rows[index].canton, //xd
+        distrito: this.rows[index].distrito, //xd
+        nacimiento: new Date(this.rows[index].fechaNacimiento),
+        email: this.rows[index].email,
+        password: this.rows[index].password, //xd
+        fechaIngreso: new Date(this.rows[index].fechaIngreso)
+      }
+
       this.service.setEmployee(request).subscribe({
         next: (data) => {
           if (data.status) {
@@ -103,6 +102,22 @@ export class GestionPersonalComponent {
       });
       this.newRow[index] = false;
     } else {
+      const request: EmployeeRol = {
+        nombre: this.rows[index].nombre,
+        apellido1: this.rows[index].apellido1,
+        apellido2: this.rows[index].apellido2,
+        cedula: this.rows[index].cedula,
+        telefono: this.rows[index].telefono,
+        provincia: this.rows[index].provincia, //xd
+        canton: this.rows[index].canton, //xd
+        distrito: this.rows[index].distrito, //xd
+        fechaNacimiento: new Date(this.rows[index].fechaNacimiento),
+        email: this.rows[index].email,
+        password: this.rows[index].password, 
+        fechaIngreso: new Date(this.rows[index].fechaIngreso),
+        rol: 'Administrativo'
+      }
+
       this.service.updateEmployee(request).subscribe({
         next: (data) => {
           if (data.status) {

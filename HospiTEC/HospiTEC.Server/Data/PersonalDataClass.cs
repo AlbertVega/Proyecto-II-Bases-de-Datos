@@ -85,6 +85,7 @@ namespace HospiTEC.Server.Data
                             select new EmployeeRol_dto
                             {
                                 email = p.email,
+                                password = PWEncryption.SHA256Decode(p.p_password),
                                 nombre = p.nombre,
                                 apellido1 = p.apellido1,
                                 apellido2 = p.apellido2,
@@ -93,8 +94,8 @@ namespace HospiTEC.Server.Data
                                 provincia = p.provincia,
                                 canton = p.canton,
                                 distrito = p.distrito,
-                                fechaNacimiento = p.fecha_nacimiento,
-                                fechaIngreso = p.fecha_ingreso,
+                                fechaNacimiento = p.fecha_nacimiento.ToDateTime(TimeOnly.MinValue),
+                                fechaIngreso = p.fecha_ingreso.ToDateTime(TimeOnly.MinValue),
                                 rol = r.nombre
                             };
 
@@ -124,6 +125,46 @@ namespace HospiTEC.Server.Data
                     await _context.SaveChangesAsync();
                     return true;
                 }                
+                return false;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public async Task<bool> updatePersonal(EmployeeRol_dto employee)
+        {
+            try
+            {
+                byte[] pw = PWEncryption.SHA256Encoding(employee.password);
+                var personal = await _context.personal.Where(p => p.email == employee.email)
+                                                      .FirstOrDefaultAsync();
+
+                var rol = await _context.rol.Where(r => r.email_personal == employee.email)
+                                            .FirstOrDefaultAsync();
+
+                if (personal != null && rol != null)
+                {
+                    personal.email = employee.email;
+                    personal.p_password = pw;
+                    personal.nombre = employee.nombre;
+                    personal.apellido1 = employee.apellido1;
+                    personal.apellido2 = employee.apellido2;
+                    personal.cedula = employee.cedula;
+                    personal.telefono = employee.telefono;
+                    personal.provincia = employee.provincia;
+                    personal.canton = employee.canton;
+                    personal.distrito = employee.distrito;
+                    personal.fecha_nacimiento = DateOnly.FromDateTime(employee.fechaNacimiento);
+                    personal.fecha_ingreso = DateOnly.FromDateTime(employee.fechaIngreso);
+
+                    rol.nombre = employee.rol;
+                    rol.email_personal = employee.email;
+
+                    await _context.SaveChangesAsync();
+                    return true;
+                }
                 return false;
             }
             catch (Exception e)
