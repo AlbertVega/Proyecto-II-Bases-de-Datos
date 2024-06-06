@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
+  "WorkspaceRootPath": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|d:\\tec\\vii semestre\\bases de datos\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|c:\\users\\alber\\documents\\github\\proyecto-ii-bases-de-datos\\hospitec\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0C59CE6-330A-4924-90EA-3DED9BF0A935}|hospitec.client\\hospitec.client.esproj|solutionrelative:hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,32 +34,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "nav-data.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\doctor-view\\doctor-sidenav\\nav-data.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-06T04:05:40.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-06T04:05:07.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "gestion-reservacion.component.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-06T04:04:55.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gestion-reservacion.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.spec.ts",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.spec.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.spec.ts",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-06T04:04:54.643Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "nav-data.ts",
-              "DocumentMoniker": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
               "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
-              "ToolTip": "D:\\TEC\\VII Semestre\\Bases de datos\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
               "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\patient-sidenav\\nav-data.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-06T03:26:23.963Z",
+              "WhenOpened": "2024-06-06T04:04:13.184Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "gestion-reservacion.component.html",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html",
+              "RelativeDocumentMoniker": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html",
+              "ToolTip": "C:\\Users\\alber\\Documents\\GitHub\\Proyecto-II-Bases-de-Datos\\HospiTEC\\hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html",
+              "RelativeToolTip": "hospitec.client\\src\\app\\components\\patient-view\\gestion-reservacion\\gestion-reservacion.component.html",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-06T04:03:58.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

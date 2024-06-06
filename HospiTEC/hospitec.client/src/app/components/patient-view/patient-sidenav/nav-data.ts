@@ -12,7 +12,7 @@ export const navbarData = [
     routeLink: 'gestion-reservacion'
   },
   {
-    routeLink: '',
+    routeLink: '../patient-log',
     icon: 'fa fa-sign-out-alt',
     label: 'Cerrar Sesión'
   }
