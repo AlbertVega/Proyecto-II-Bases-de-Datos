@@ -1,0 +1,92 @@
+<body>
+  <div class="requester-form">
+    <h1>Agregar Historial</h1>
+    <h3>Datos a agregar</h3>
+    <form [formGroup]="form">
+      <div class="form-group form-name">
+        <label for="name">Nombre del procedimiento</label>
+        <select formControlName="procedimiento" class="form-select" id="procedimiento">
+          <option value="Apendicectomía">Apendicectomía</option>
+          <option value="Biopsia de mama">Biopsia de mama</option>
+          <option value="Cirugía de cataratas">Cirugía de cataratas</option>
+          <option value="Cesárea">Cesárea</option>
+          <option value="Histerectomía">Histerectomía</option>
+          <option value="Cirugía para la lumbalgia">Cirugía para la lumbalgia</option>
+          <option value="Mastectomía">Mastectomía</option>
+          <option value="Amigdalectomía">Amigdalectomía</option>
+        </select>
+      </div>
+      <div class="form-group form-fname">
+        <label for="tratamiento">Tratamiento</label>
+        <input formControlName="tratamiento" type="text" class="form-control" id="tratamiento" placeholder="Ingrese el tratamiento aplicado">
+      </div>
+      <div class="form-group form-email">
+        <label for="email">Correo del Paciente</label>
+        <input formControlName="email" type="email" class="form-control" id="email" placeholder="Ingrese el correo electrónico del paciente">
+      </div>
+      <div class="form-group form-birth">
+        <label for="fecha">Fecha de Procedimiento</label>
+        <input formControlName="fecha" type="date" class="form-control" id="fecha" placeholder="Fecha de Procedimiento">
+      </div>
+
+      <div class="form-group">
+        <button (click)="onRegister()" class="btn btn-primary btn-add">Añadir</button>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre del Procedimiento</th>
+              <th>Tratamiento</th>
+              <th>Fecha de Procedimiento</th>
+              <th>Email del Paciente</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of rows; let i = index">
+              <td class="id">
+                <p *ngIf="editingRow[i] == false">{{row.id}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.id" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.nombre_procedimiento}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.nombre_procedimiento" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.tratamiento}}</p>
+                <input *ngIf="editingRow[i] == true" type="text" [(ngModel)]="row.tratamiento" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.fecha_procedimiento}}</p>
+                <input *ngIf="editingRow[i] == true" type="date" [(ngModel)]="row.fecha_procedimiento" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.email_paciente}}</p>
+                <select *ngIf="editingRow[i] == true" [(ngModel)]="row.email_paciente" class="form-control">
+                  <option value="F2-05">F2-05</option>
+                  <option value="F2-06">F2-06</option>
+                  <option value="F2-07">F2-07</option>
+                  <option value="F2-08">F2-08</option>
+                  <option value="Operadores">Operadores</option>
+                </select>
+              </td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button *ngIf="editingRow[i] == false" (click)="editRow(i)" class="btn btn-outline-warning">Edit</button>
+                  <button *ngIf="editingRow[i] == true" (click)="saveRow(i)" class="btn btn-outline-success">Save</button>
+                  <button (click)="deleteRow(i)" class="btn btn-outline-danger">Delete</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>

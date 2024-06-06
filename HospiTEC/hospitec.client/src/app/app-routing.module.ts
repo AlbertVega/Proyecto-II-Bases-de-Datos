@@ -19,6 +19,7 @@ import { GestionCamasComponent } from './components/admin-view/gestion-camas/ges
 import { GestionEquipoComponent } from './components/admin-view/gestion-equipo/gestion-equipo.component';
 import { GestionPersonalComponent } from './components/admin-view/gestion-personal/gestion-personal.component';
 import { GestionProcedimientosComponent } from './components/admin-view/gestion-procedimientos/gestion-procedimientos.component'
+import { AddRecordComponent } from './components/doctor-view/add-record/add-record.component';
 
 const routes: Routes = [
   { path: 'patient-reg', component: PatientRegisterComponent },
@@ -34,7 +35,8 @@ const routes: Routes = [
   {
     path: 'doctor-view', component: DoctorViewComponent,
     children: [
-      { path: 'add-patient', component: AddPatientComponent}
+      { path: 'add-patient', component: AddPatientComponent },
+      { path: 'add-record', component: AddRecordComponent }
     ]
   },
   { path: 'admin-login', component: AdminLoginComponent },

@@ -28,6 +28,7 @@ import { GestionPersonalComponent } from './components/admin-view/gestion-person
 import { GestionProcedimientosComponent } from './components/admin-view/gestion-procedimientos/gestion-procedimientos.component'
 
 
+import { AddRecordComponent } from './components/doctor-view/add-record/add-record.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ import { GestionProcedimientosComponent } from './components/admin-view/gestion-
     GestionEquipoComponent,
     GestionCamasComponent,
     GestionPersonalComponent,
-    GestionProcedimientosComponent
+    GestionProcedimientosComponent,
+    AddRecordComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
