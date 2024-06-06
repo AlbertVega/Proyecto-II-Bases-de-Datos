@@ -1,0 +1,53 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Número</th>
+              <th>Salón</th>
+              <th>UCI?</th>
+              <th>Disponible</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let row of rows; let i = index">
+              <td class="id">
+                <p *ngIf="editingRow[i] == false">{{row.numero}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.numero" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.numero_salon}}</p>
+                <input *ngIf="editingRow[i] == true" type="number" [(ngModel)]="row.numero_salon" class="form-control">
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.is_uci}}</p>
+                <select *ngIf="editingRow[i] == true" [(ngModel)]="row.is_uci" class="form-control">
+                  <option value="true">Si</option>
+                  <option value="false">No</option>
+                </select>
+              </td>
+              <td>
+                <p *ngIf="editingRow[i] == false">{{row.disponible}}</p>
+                <select *ngIf="editingRow[i] == true" [(ngModel)]="row.disponible" class="form-control">
+                  <option value="true">Si</option>
+                  <option value="false">No</option>
+                </select>
+              </td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button *ngIf="editingRow[i] == false" (click)="editRow(i)" class="btn btn-outline-warning">Edit</button>
+                  <button *ngIf="editingRow[i] == true" (click)="saveRow(i)" class="btn btn-outline-success">Save</button>
+                  <button (click)="deleteRow(i)" class="btn btn-outline-danger">Delete</button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <button (click)="addRow()" class="btn btn-primary">Add Row</button>
+  </div>
+</body>

@@ -17,14 +17,21 @@ namespace HospiTEC.Server.Utility
             {
                 byte[] result = sHA256.ComputeHash(Encoding.UTF8.GetBytes(PW));
 
-                StringBuilder sb = new StringBuilder();
-                for (int i = 0; i < result.Length; i++)
-                {
-                    sb.Append(result[i].ToString("x2"));
-                }
+                
 
                 return result;
             }
+        }
+
+        public static string SHA256Decode(byte[] PW)
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < PW.Length; i++)
+            {
+                sb.Append(PW[i].ToString("x2"));
+            }
+
+            return sb.ToString();
         }
     }
 }

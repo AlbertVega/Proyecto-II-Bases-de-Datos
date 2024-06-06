@@ -32,13 +32,15 @@ namespace HospiTEC.Server.Controllers
                     apellido1 = d.apellido1,
                     apellido2 = d.apellido2,
                     fecha_nacimiento = d.fecha_nacimiento,
-                    correo = d.correo,
+                    email = d.email,
                     p_password = d.p_password,
                     cedula = d.cedula,
-                    numero = d.numero,
+                    telefono = d.telefono,
                     provincia = d.provincia,
                     canton = d.canton,
-                    distrito = d.distrito
+                    distrito = d.distrito,
+                    patologias = d.patologias,
+                    tratamientos = d.tratamientos
                 }).ToList();
             }
             catch (Exception e)
@@ -71,9 +73,9 @@ namespace HospiTEC.Server.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> LogPatient([FromBody] PatientLogin data)
+        public async Task<IActionResult> LogPatient([FromBody] Login data)
         {
-            var response = new ResponseApi<PatientLogin>();
+            var response = new ResponseApi<Login>();
 
             try
             {

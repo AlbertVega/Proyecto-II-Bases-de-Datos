@@ -2,34 +2,71 @@
   <div class="requester-form">
     <h1>Registro de Pacientes</h1>
     <h3>Datos de la persona</h3>
-    <form>
+    <form [formGroup]="form">
       <div class="form-group form-name">
         <label for="name">Nombre</label>
-        <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+        <input formControlName="nombre" type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
       </div>
       <div class="form-group form-fname">
         <label for="lastName">Primer apellido</label>
-        <input type="text" class="form-control" id="lastName" placeholder="Ingrese su primer apellido">
+        <input formControlName="apellido1" type="text" class="form-control" id="lastName" placeholder="Ingrese su primer apellido">
       </div>
       <div class="form-group form-lname">
         <label for="lastName">Segundo apellido</label>
-        <input type="text" class="form-control" id="lastName" placeholder="Ingrese su segundo apellido">
+        <input formControlName="apellido2" type="text" class="form-control" id="lastName" placeholder="Ingrese su segundo apellido">
+      </div>
+      <div class="form-group form-cedula">
+        <label for="cedula">Cédula</label>
+        <input formControlName="cedula" type="number" class="form-control" id="cedula" placeholder="Ingrese su cédula">
       </div>
       <div class="form-group form-email">
         <label for="email">Correo</label>
-        <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+        <input formControlName="email" type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
       </div>
-      <div class="form-group form-type">
-        <label for="type">Tipo de solicitante</label>
-        <select class="form-select" name="type" [(ngModel)]="selectedType">
-          <option value="Estudiante">Estudiante</option>
-          <option value="Profesor">Profesor</option>
-        </select>
+      <div class="form-group form-pw">
+        <label for="pw">Contraseña</label>
+        <input formControlName="password" type="password" class="form-control" id="pw" placeholder="Ingrese su contraseña">
       </div>
+      <div class="form-group form-birth">
+        <label for="birth">Fecha de Nacimiento</label>
+        <input formControlName="nacimiento" type="date" class="form-control" id="birth" placeholder="Fecha de Nacimiento">
+      </div>
+      <div class="form-group form-phone">
+        <label for="phone">Teléfono</label>
+        <input formControlName="tel" type="number" class="form-control" id="phone" placeholder="Ingrese su número de teléfono">
+      </div>
+
+      <div class="form-group form-provincia">
+        <label for="provincia">Provincia</label>
+        <div class="input-container">
+          <select formControlName="provincia" class="form-select" id="provincia">
+            <option selected disabled hidden>Provincia</option>
+            <option value="limon">Limón</option>
+            <option value="cartago">Cartago</option>
+            <option value="heredia">Heredia</option>
+            <option value="sanjose">San José</option>
+            <option value="guanacaste">Guanacaste</option>
+            <option value="puntarenas">Puntarenas</option>
+            <option value="alajuela">Alajuela</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group form-canton">
+        <label for="canton">Cantón</label>
+        <div class="input-container">
+          <input formControlName="canton" type="text" class="form-control" id="canton" placeholder="Cantón" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group form-distrito">
+        <label for="distrito">Distrito</label>
+        <div class="input-container">
+          <input formControlName="distrito" type="text" class="form-control" id="distrito" placeholder="Distrito" autocomplete="off">
+        </div>
+      </div>
+
       <div class="form-group">
-        <button class="btn btn-primary btn-add">
-          Añadir
-        </button>
+        <button (click)="onRegister()" class="btn btn-primary btn-add">Añadir</button>
       </div>
     </form>
   </div>

@@ -16,6 +16,19 @@ import { DoctorBodyComponent } from './components/doctor-view/doctor-body/doctor
 import { DoctorSidenavComponent } from './components/doctor-view/doctor-sidenav/doctor-sidenav.component';
 import { AddPatientComponent } from './components/doctor-view/add-patient/add-patient.component';
 import { GestionReservacionComponent } from './components/patient-view/gestion-reservacion/gestion-reservacion.component';
+import { AdminLoginComponent } from './components/admin-login/admin-login.component';
+import { AdminViewComponent } from './components/admin-view/admin-view.component';
+import { AdminBodyComponent } from './components/admin-view/admin-body/admin-body.component';
+import { AdminSidenavComponent } from './components/admin-view/admin-sidenav/admin-sidenav.component';
+import { GestionSalonComponent } from './components/admin-view/gestion-salon/gestion-salon.component';
+import { ExcelUploaderComponent } from './components/admin-view/excel-uploader/excel-uploader.component';
+import { GestionEquipoComponent } from './components/admin-view/gestion-equipo/gestion-equipo.component';
+import { GestionCamasComponent } from './components/admin-view/gestion-camas/gestion-camas.component';
+import { GestionPersonalComponent } from './components/admin-view/gestion-personal/gestion-personal.component';
+import { GestionProcedimientosComponent } from './components/admin-view/gestion-procedimientos/gestion-procedimientos.component'
+
+
+import { AddRecordComponent } from './components/doctor-view/add-record/add-record.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +44,20 @@ import { GestionReservacionComponent } from './components/patient-view/gestion-r
     DoctorBodyComponent,
     DoctorSidenavComponent,
     AddPatientComponent,
-    GestionReservacionComponent
+    GestionReservacionComponent,
+    AdminLoginComponent,
+    AdminViewComponent,
+    AdminBodyComponent,
+    AdminSidenavComponent,
+    GestionSalonComponent,
+    ExcelUploaderComponent,
+
+
+    GestionEquipoComponent,
+    GestionCamasComponent,
+    GestionPersonalComponent,
+    GestionProcedimientosComponent,
+    AddRecordComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

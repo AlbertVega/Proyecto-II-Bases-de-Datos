@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { ResponseApi } from '../Interfaces/response-api';
 import { RegisterPatient } from '../Interfaces/Register';
-import { Login } from '../Interfaces/Login';
+import { Login } from '../Interfaces/login';
 
 @Injectable({
   providedIn: 'root'
