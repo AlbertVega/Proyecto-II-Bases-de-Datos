@@ -149,6 +149,45 @@ namespace HospiTEC.Server.Controllers
             {
                 response.status = true;
                 response.value = await _salonDataClass.getSalon();
+
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("updateSalon")]
+        public async Task<IActionResult> updateSalon([FromBody] SALON salon)
+        {
+            var response = new ResponseApi<string>();
+
+            try
+            {
+                response.status = await _salonDataClass.UpdateSalon(salon);
+                response.message = response.status ? "Update successful" : "Update failed";
+            }
+            catch (Exception e)
+            {
+                response.status = false;
+                response.message = e.Message;
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("deleteSalon")]
+        public async Task<IActionResult> deleteSalon([FromBody] SALON salon)
+        {
+            var response = new ResponseApi<string>();
+
+            try
+            {
+                response.status = await _salonDataClass.deleteSalon(salon);
+                response.message = response.status ? "Delete successful" : "Delete failed";
             }
             catch (Exception e)
             {
