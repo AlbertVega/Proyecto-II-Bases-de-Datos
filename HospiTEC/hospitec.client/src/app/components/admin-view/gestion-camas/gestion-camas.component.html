@@ -25,15 +25,15 @@
               <td>
                 <p *ngIf="editingRow[i] == false">{{row.is_uci}}</p>
                 <select *ngIf="editingRow[i] == true" [(ngModel)]="row.is_uci" class="form-control">
-                  <option value="Si">Si</option>
-                  <option value="No">No</option>
+                  <option value="true">Si</option>
+                  <option value="false">No</option>
                 </select>
               </td>
               <td>
                 <p *ngIf="editingRow[i] == false">{{row.disponible}}</p>
                 <select *ngIf="editingRow[i] == true" [(ngModel)]="row.disponible" class="form-control">
-                  <option value="Si">Si</option>
-                  <option value="No">No</option>
+                  <option value="true">Si</option>
+                  <option value="false">No</option>
                 </select>
               </td>
               <td>

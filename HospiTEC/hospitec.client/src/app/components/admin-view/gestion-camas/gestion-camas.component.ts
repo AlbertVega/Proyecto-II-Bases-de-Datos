@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Cama } from '../../../Interfaces/Cama';
+import { AdminService } from '../../../services/admin.service';
 
 @Component({
   selector: 'app-gestion-camas',
@@ -17,11 +18,23 @@ export class GestionCamasComponent {
   * Salidas: ninguna
   * Funcionamiento: se encarga de obtener los activos
   */
-  constructor() {
-    for (let i = 0; i < this.rows.length; i++) {
-      this.editingRow.push(false);
-      this.newRow.push(false);
-    }
+  constructor(private service: AdminService) {
+    this.service.getCamas().subscribe({
+      next: (data) => {
+        if (data.status) {
+          console.log(data.message);
+          this.rows = data.value;
+          for (let i = 0; i < this.rows.length; i++) {
+            this.editingRow.push(false);
+            this.newRow.push(false);
+          }
+
+        } else {
+          console.log(data.value);
+          console.log(data.message);
+        }
+      }
+    });
   }
 
   /*
@@ -53,8 +66,40 @@ export class GestionCamasComponent {
   * Funcionamiento: deshabilita la edición de la fila
   */
   saveRow(index: number) {
-    this.editingRow[index] = false;
-    this.newRow[index] = false;
+    const request: Cama = {
+      numero: this.rows[index].numero,
+      is_uci: this.rows[index].is_uci,
+      disponible: this.rows[index].disponible,
+      numero_salon: this.rows[index].numero_salon
+    };
+    console.log(request);
+    if (this.newRow[index]) {
+      this.editingRow[index] = false;
+      this.service.setCama(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.value);
+            this.newRow[index] = false;
+          } else {
+            console.log(data.value);
+            console.log(data.message);
+          }
+        }
+      });
+      this.newRow[index] = false;
+
+    } else {
+      this.service.updateCama(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.message);
+          } else {
+            console.log(data.value);
+            console.log(data.message);
+          }
+        }
+      });
+    }    
   }
 
   /*

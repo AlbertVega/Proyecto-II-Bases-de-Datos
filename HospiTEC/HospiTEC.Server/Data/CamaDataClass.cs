@@ -2,20 +2,20 @@
 
 namespace HospiTEC.Server.Data
 {
-    public class SalonDataClass
+    public class CamaDataClass
     {
         private readonly HospiTEC_DB_Context _context;
 
-        public SalonDataClass(HospiTEC_DB_Context context)
+        public CamaDataClass(HospiTEC_DB_Context context)
         {
             _context = context;
         }
 
-        public async Task<bool> StoreSalon(SALON salon_Dto)
+        public async Task<bool> StoreCama(CAMA cama_Dto)
         {
             try
             {
-                _context.salon.Add(salon_Dto);
+                _context.cama.Add(cama_Dto);
                 await _context.SaveChangesAsync();
                 return true;
             }
@@ -25,23 +25,11 @@ namespace HospiTEC.Server.Data
             }
         }
 
-       public async Task<List<SALON>> getSalon()
+        public async Task<bool> updateCama(CAMA cama_Dto)
         {
             try
             {
-                return await _context.salon.ToListAsync();
-            }
-            catch (Exception e)
-            {
-                throw e;
-            }
-        }
-
-        public async Task<bool> UpdateSalon(SALON salon_Dto)
-        {
-            try
-            {
-                _context.salon.Update(salon_Dto);
+                _context.cama.Update(cama_Dto);
                 await _context.SaveChangesAsync();
                 return true;
             }
@@ -51,13 +39,25 @@ namespace HospiTEC.Server.Data
             }
         }
 
-        public async Task<bool> deleteSalon(SALON salon_Dto)
+        public async Task<bool> deleteCama(CAMA cama_Dto)
         {
             try
             {
-                _context.salon.Remove(salon_Dto);
+                _context.cama.Remove(cama_Dto);
                 await _context.SaveChangesAsync();
                 return true;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public async Task<List<CAMA>> GetCamas()
+        {
+            try
+            {
+                return await _context.cama.ToListAsync();
             }
             catch (Exception e)
             {

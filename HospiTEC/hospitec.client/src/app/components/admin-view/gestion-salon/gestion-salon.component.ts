@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Salon } from '../../../Interfaces/Salon';
+import { AdminService } from '../../../services/admin.service';
 
 @Component({
   selector: 'app-gestion-salon',
@@ -17,12 +18,23 @@ export class GestionSalonComponent {
   * Salidas: ninguna
   * Funcionamiento: se encarga de obtener los activos
   */
-  constructor() {
+  constructor(private service: AdminService) {
+    this.service.getSalones().subscribe({
+      next: (data) => {
+        if (data.status) {
+          console.log(data.message);
+          this.rows = data.value;
+          for (let i = 0; i < this.rows.length; i++) {
+            this.editingRow.push(false);
+            this.newRow.push(false);
+          }
 
-    for (let i = 0; i < this.rows.length; i++) {
-      this.editingRow.push(false);
-      this.newRow.push(false);
-    }
+        } else {
+          console.log(data.value);
+          console.log(data.message);
+        }
+      }
+    });
   }
 
   /*
@@ -55,7 +67,39 @@ export class GestionSalonComponent {
   */
   saveRow(index: number) {
     this.editingRow[index] = false;
-    this.newRow[index] = false;
+    const request: Salon = {
+      numero: this.rows[index].numero,
+      nombre: this.rows[index].nombre,
+      piso: this.rows[index].piso,
+      medicina: this.rows[index].medicina,
+      capacidad_camas: this.rows[index].capacidad_camas
+    }
+    if (this.newRow[index] == true) {
+      this.service.setSalon(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.message);
+            this.newRow[index] = false;
+          } else {
+            console.log(data.value);
+            console.log(data.message);
+          }
+        }
+      });
+      this.newRow[index] = false;
+    } else {
+      this.service.updateSalon(request).subscribe({
+        next: (data) => {
+          if (data.status) {
+            console.log(data.message);
+          } else {
+            console.log(data.value);
+            console.log(data.message);
+          }
+        }
+      });
+    }
+    
   }
 
   /*
@@ -65,6 +109,23 @@ export class GestionSalonComponent {
   * Funcionamiento: elimina la fila de la tabla
   */
   deleteRow(index: number) {
+    const request: Salon = {
+      numero: this.rows[index].numero,
+      nombre: this.rows[index].nombre,
+      piso: this.rows[index].piso,
+      medicina: this.rows[index].medicina,
+      capacidad_camas: this.rows[index].capacidad_camas
+    }
+    this.service.deleteSalon(request).subscribe({
+      next: (data) => {
+        if (data.status) {
+          console.log(data.message);
+        } else {
+          console.log(data.value);
+          console.log(data.message);
+        }
+      }
+    });
     this.rows.splice(index, 1);
     this.editingRow.splice(index, 1);
   }
