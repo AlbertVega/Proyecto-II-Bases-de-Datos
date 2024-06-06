@@ -13,7 +13,7 @@ export const navbarData = [
   },
   {
     label: 'Gestión de camas',
-    icon: 'fal-tags ',
+    icon: 'fal fa-bed',
     routeLink:'gestion-camas'
   },
   {
@@ -28,20 +28,14 @@ export const navbarData = [
   },
   {
     label: 'Cargar Pacientes',
-    icon: 'fal id-card-o',
+    icon: 'fal fa-file-upload',
     routeLink: 'excel-uploader'
   },
   {
     label: 'Reportes',
-    icon: 'fal book',
+    icon: 'fal fa-chart-bar',
     routeLink: 'admin-reportes'
   },
-  {
-    label: 'Restablecimiento de contraseña',
-    icon: 'fal fa-key',
-    routeLink: 'rst-pwd'
-  },
-
   {
     routeLink: 'admin-login',
     icon: 'fa fa-sign-out-alt',

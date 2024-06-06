@@ -12,12 +12,6 @@ export const navbarData = [
     routeLink: 'gestion-reservacion'
   },
   {
-    label: 'Restablecimiento de contraseña',
-    icon: 'fal fa-key',
-    routeLink: ''
-  },
-
-  {
     routeLink: '',
     icon: 'fa fa-sign-out-alt',
     label: 'Cerrar Sesión'
